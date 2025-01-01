@@ -1,1 +1,0 @@
-O projeto é um pouco grande. Não no sentido de complexidade, mas sim no de organização. Esse aquivo em questão trás ideias de como organizar um projeto de porte acima de pequeno.
