@@ -69,7 +69,7 @@ A seção abaixo foi adicionada para caso queira verificar algum conteúdo de es
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
 **Organização do Projeto** | <!-- <a href="https://unsplash.com/pt-br/cole%C3%A7%C3%B5es/nCrFuqqXuFM/flash">aqui</a> <br> <a href="https://unsplash.com/pt-br/cole%C3%A7%C3%B5es/nCrFuqqXuFM/flash">aqui</a> -->
-**Meta tags** |
+**Meta tags** | <a href="https://www.devmedia.com.br/html-meta-tags-entendendo-o-uso-de-meta-tags/30328">HTML Meta Tags: Entendendo o uso de Meta Tags</a> <br> <a href="https://ogp.me/">The Open Graph protocol</a> <br> <a href="https://www.treinaweb.com.br/blog/a-importancia-das-metatags-no-html">A importância das metatags no HTML</a>
 **fetch** | 
 
 <h1 id="credits"> Créditos </h1>
