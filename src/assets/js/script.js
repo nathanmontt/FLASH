@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
             // Captura e exibe no console qualquer erro ocorrido durante o fetch ou a manipulação
             console.error(error);
         });
+
+        return true;
     }
     
     // Carrega o Header no elemento com ID "header-container"
@@ -47,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // e "header-container" é o ID do elemento onde o header será inserido
     loadComponent("/src/components/header.html", "header-container");
 
-    // Carrega o Footer no elemento com ID "footer-container"
+    // Carrega o Footer no elemento com ID "footer-container" 
     // "components/footer.html" é o caminho do arquivo HTML do footer
     // e "footer-container" é o ID do elemento onde o footer será inserido
     // loadComponent("components/footer.html", "footer-container");
