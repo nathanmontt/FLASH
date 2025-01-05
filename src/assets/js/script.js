@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Carrega o Header no elemento com ID "header-container"
     // Aqui, "components/header.html" é o caminho do arquivo HTML do header
     // e "header-container" é o ID do elemento onde o header será inserido
-    loadComponent("src/components/header.html", "header-container");
+    loadComponent("components/header.html", "header-container");
 
     // Carrega o Footer no elemento com ID "footer-container" 
     // "components/footer.html" é o caminho do arquivo HTML do footer
