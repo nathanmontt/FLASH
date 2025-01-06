@@ -1,5 +1,5 @@
-# *FLASH*
-*FLASH* representa um _e-commerce_. Com peças ainda em produção, *FLASH* se mantém à frente da moda de *streetwear*.
+# *FLASH - CHALLENGE YOURSELF*
+*FLASH*.  Um _e-commerce_, um desafio. Uma força. Com peças em confecção, *FLASH* se mantém à frente da moda de *streetwear*, com seu jeito inovador de pensar e agir.
 
 ---
 
@@ -7,7 +7,6 @@
 
 * [Sobre o Projeto](#about)
 * [Habilidades Necessárias](#abilities)
-* [Conteúdo de Aprendizado](#study)
 * [Como executar](#execute)
 * [Contribuindo](#contribuition)
 * [*Features* Futuras](#fut-feats)
@@ -17,21 +16,19 @@
 
 
 <h1 id="about">Sobre o Projeto</h1>
-<!--
-<em>RISKSHOT</em> foi pensando cuidadosamente para pessoas com sede de adrenalina. Viciados em epinefrina, <em>RISKSHOT</em> compartilha da vontade do usuário, partilhando a experiência de estar junto dele, capturando o momento quando tudo acontece. O <em>card</em> em questão mostra que não importa a hora e o lugar, <em>RISKSHOT</em> vai estar lá. Como uma agência de fotografia, a empresa compartilha sabedorias dos meios do mercado e da fotografia com o comprador dos serviços, oferecendo a melhor (e mais segura!) experiência para todos.
--->
+
+<em>FLASH</em> foi pensando para pessoas. Amantes da moda (e os que querem ingressar na mesma), <em>FLASH</em> compartilha da sua vontade, vestindo o momento. O site mostra que, com <em>FLASH</em>, seu estilo é diferenciado, não importa a hora e o lugar.
+
 
 <h1 id="abilities"> Habilidades Necessárias </h1>
 
-Sendo o segundo, ainda foram utilizadas utilizadas linguagens como <b>HTML</b>, <b>SCSS</b>, e <b>JavaScript</b></b>. Os estudos que se tornaram maiores devido a ambição em um projeto um pouco maior do que o normal. Então foi necessário adaptá-lo para o nível de conhecimento compatível.
-
-
-<h1 id="study"> Conteúdo de Aprendizado </h1>
-Dentro do contexto da criação do projeto, como é um <em>e-commerce</em>, foram necessários outros conhecimentos. Todos (ou a grande maioria deles) estarão na seção de <a href="#links">Links Úteis</a>:
+Sendo o segundo, ainda foram utilizadas utilizadas linguagens como <b>HTML</b>, <b>SCSS</b>, e <b>JavaScript</b></b>. Os estudos que se tornaram maiores devido a ambição em um projeto um pouco maior do que o normal. Então foi necessário adaptá-lo para o nível de conhecimento compatível, como:
 
 - Conhecimento sobre organização do projeto;
 - Conhecimento sobre meta tags;
 - Conhecimento sobre <em>fetch</em>, em JavaScript
+
+OBS.: todos os links estão disponíveis na aba <a href="#links"> Links Úteis </a>.
 
 
 <h1 id="execute"> Como executar </h1>
@@ -43,9 +40,9 @@ Dentro do contexto da criação do projeto, como é um <em>e-commerce</em>, fora
 
 No momento, não há contruibuições.
 
-
-<h1 id="fut-feats"> <em>Features</em> Futuras </h1>
 <!--
+<h1 id="fut-feats"> <em>Features</em> Futuras </h1>
+
 Para futuras <em>features</em>, alguns opções podem ser levadas em consideração:
 --
 *Feature* | Motivo
