@@ -1,3 +1,4 @@
+/* ----- BASE ----- */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -10,4 +11,9 @@
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
   text-wrap: balance;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* ----- LAYOUT ----- */
+/* ----- MODULES ----- */
+/* ----- STATE ----- */
+/* ----- THEME ----- *//*# sourceMappingURL=main.css.map */
