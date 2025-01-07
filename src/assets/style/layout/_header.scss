@@ -1,0 +1,13 @@
+@import '../base/variables';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid red;
+    align-items: center;
+    .container-logo-link-home {
+        .name-company-link-home {
+            background-color: brown;
+        }
+    }
+}

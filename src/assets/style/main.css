@@ -4,8 +4,10 @@
 }
 
 * {
-  list-style-type: none;
   margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -14,6 +16,19 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* ----- LAYOUT ----- */
+/* ----- COLORS ----- */
+/* ----- FONTS ----- */
+/* ----- PADDING ----- */
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid red;
+  align-items: center;
+}
+header .container-logo-link-home .name-company-link-home {
+  background-color: brown;
+}
+
 /* ----- MODULES ----- */
 /* ----- STATE ----- */
 /* ----- THEME ----- *//*# sourceMappingURL=main.css.map */
