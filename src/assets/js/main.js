@@ -1,20 +1,6 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//     document.querySelectorAll('[nm]').forEach(link => {
-//         link.onclick = function(e) {
-//             const conteudo = document.getElementById('conteudo');
-
-//             e.preventDefault();
-            
-//             fetch(link.getAttribute('nm'))
-//                 .then(resp => resp.text())
-//                 .then(html => conteudo.innerHTML = html)
-//         }
-//     });
-// })
-
-// Função para carregar componentes HTML dinamicamente
-// Recebe dois parâmetros:
-// - url: o caminho para o arquivo HTML do componente (ex: "components/header.html")
+// Função para carregar componentes HTML dinamicamente, ou seja, FETCH (buscar, trazer, em português)
+// Dois parâmetros:
+// - url: o caminho do arquivo HTML do que a gente quer colocar na main sem ter que escrever todo o código novamente e se repetir, não utilizando o conceito DRY (Don't Repeat Yourself), ex: "components/header.html"
 // - containerId: o ID do elemento HTML onde o conteúdo será inserido (ex: "header-container")
 document.addEventListener("DOMContentLoaded", function () {
     function loadComponent(url, containerId) {
