@@ -1,2 +1,7 @@
 @import '../base/variables';
 
+.btn {
+    background-color: $bg-color-btn;
+    border: $border-no-hover;
+    cursor: $cursor-mode;
+}
