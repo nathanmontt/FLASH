@@ -3,10 +3,10 @@
 header {
     display: flex;
     justify-content: space-between;
-    border: 3px solid red;
     align-items: center;
+    // border: 3px solid red;
 
-    padding: $small-padding;
+    padding: $big-padding;
     .container-logo-link-home {
         .name-company-link-home {
             font-family: $main-font;
@@ -21,6 +21,7 @@ header {
         // }
 
         .menu-options {
+            display: $hidden;
             .options-holder {
                 .links {
                     font-family: $main-font;

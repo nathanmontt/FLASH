@@ -20,20 +20,25 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- LAYOUT ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
+/* -- Texts -- */
+/* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- ARRANGEMENTS ----- */
+/* ----- OTHERS ----- */
 header {
   display: flex;
   justify-content: space-between;
-  border: 3px solid red;
   align-items: center;
-  padding: 0.5em;
+  padding: 1.5em;
 }
 header .container-logo-link-home .name-company-link-home {
   font-family: "Roboto", serif;
   font-size: 1.5em;
   font-weight: 500;
   color: black;
+}
+header .container-navigation-links .menu-options {
+  display: none;
 }
 header .container-navigation-links .menu-options .options-holder .links {
   font-family: "Roboto", serif;
@@ -44,7 +49,16 @@ header .container-navigation-links .menu-options .options-holder .links {
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
+/* -- Texts -- */
+/* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- ARRANGEMENTS ----- */
+/* ----- OTHERS ----- */
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 /* ----- STATE ----- */
 /* ----- THEME ----- *//*# sourceMappingURL=main.css.map */

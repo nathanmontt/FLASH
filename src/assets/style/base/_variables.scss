@@ -2,10 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* ----- COLORS ----- */
+/* -- Texts -- */
 $primary-color-text: black;
 // $secondary-color: #4caf50;
 // $light-color: #ffffff;
 // $dark-color: #333333;
+
+/* -- Buttons -- */
+$primary-color-white-mode-bnt: black;
+$primary-color-dark-mode-bnt: white;
+$border-white-mode-btn: black;
+$border-dark-mode-btn: white;
+$border-no-hover: none;
+$bg-color-btn: transparent;
 
 /* ----- FONTS ----- */
 $main-font: 'Roboto', serif;;
@@ -19,3 +28,7 @@ $font-weight-paragraph: 300;
 $small-padding: 0.5em;
 $medium-padding: 1em;
 $big-padding: 1.5em;
+
+/* ----- OTHERS ----- */
+$cursor-mode: pointer;
+$hidden: none;
