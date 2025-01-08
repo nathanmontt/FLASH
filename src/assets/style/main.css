@@ -1,4 +1,5 @@
 /* ----- BASE ----- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -16,17 +17,27 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* ----- LAYOUT ----- */
+/* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* ----- FONTS ----- */
-/* ----- PADDING ----- */
+/* ----- ARRANGEMENTS ----- */
 header {
   display: flex;
   justify-content: space-between;
   border: 3px solid red;
   align-items: center;
+  padding: 0.5em;
 }
 header .container-logo-link-home .name-company-link-home {
-  background-color: brown;
+  font-family: "Roboto", serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+}
+header .container-navigation-links .menu-options .options-holder .links {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  color: black;
 }
 
 /* ----- MODULES ----- */

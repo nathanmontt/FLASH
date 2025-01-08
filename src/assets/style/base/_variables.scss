@@ -1,17 +1,21 @@
+/* ----- IMPORTS ----- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* ----- COLORS ----- */
-// $primary-color-text: black;
-// $primary-color-text: black;
+$primary-color-text: black;
 // $secondary-color: #4caf50;
 // $light-color: #ffffff;
 // $dark-color: #333333;
 
 /* ----- FONTS ----- */
-$font-family-title: 'Arial', sans-serif;
-$font-size-title: 1.1em;
-$font-family-paragraph: 'Arial', sans-serif;
+$main-font: 'Roboto', serif;;
+$font-size-title: 1.5em;
 $font-size-paragraph: 0.9em;
 
-/* ----- PADDING ----- */
+$font-weight-title: 500;
+$font-weight-paragraph: 300;
+
+/* ----- ARRANGEMENTS ----- */
 $small-padding: 0.5em;
 $medium-padding: 1em;
 $big-padding: 1.5em;

@@ -5,9 +5,29 @@ header {
     justify-content: space-between;
     border: 3px solid red;
     align-items: center;
+
+    padding: $small-padding;
     .container-logo-link-home {
         .name-company-link-home {
-            background-color: brown;
+            font-family: $main-font;
+            font-size: $font-size-title;
+            font-weight: $font-weight-title;
+            color: $primary-color-text;
+        }
+    }
+    
+    .container-navigation-links {
+        .open-menu {
+        }
+
+        .menu-options {
+            .options-holder {
+                .links {
+                    font-family: $main-font;
+                    font-weight: $font-weight-paragraph;
+                    color: $primary-color-text;
+                }
+            }
         }
     }
 }
