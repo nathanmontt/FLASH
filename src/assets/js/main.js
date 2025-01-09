@@ -29,4 +29,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     loadComponent("components/header.html", "header-container");
+
+    // function toogleMenuHandler () {
+        
+    // }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const openMenuBtn = document.getElementById("btn-open-close");
+    const menuItemsHolder = document.querySelector(".menu-options");
+
+    document.addEventListener("DOMContentLoaded", function () {
+        openMenuBtn.addEventListener("click", function () {
+
+        });
+    })
 });
