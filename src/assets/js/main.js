@@ -36,12 +36,20 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    const openMenuBtn = document.getElementById("btn-open-close");
+    const openMenuBtn = document.getElementById("teste");
     const menuItemsHolder = document.querySelector(".menu-options");
+    const itemLinks = document.querySelectorAll(".options-holder");
 
     document.addEventListener("DOMContentLoaded", function () {
         openMenuBtn.addEventListener("click", function () {
-
+            console.log("teste");
+            // itemLinks.forEach (function (item) {
+            //     if (item.classList.contains("hidden")) {
+            //         item.classList.remove("hidden");
+            //     } else {
+            //         item.classList.add("hidden");
+            //     }
+            // })
         });
     })
 });
