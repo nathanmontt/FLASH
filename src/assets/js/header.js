@@ -38,7 +38,7 @@
 // })
 
 document.addEventListener('DOMContentLoaded', function () {
-    const hambMenuBtn = document.getElementById('hamb-menu-btn');
+    const hambMenuBtn = document.querySelector('#hamb-menu-btn'); 
     const optionsHolder = document.querySelectorAll('.options-holder');
 
     // console.log(hambMenuBtn); // Verifique se o botão está sendo encontrado
@@ -51,8 +51,10 @@ document.addEventListener('DOMContentLoaded', function () {
     if (hambMenuBtn && optionsHolder.length > 0) {
         hambMenuBtn.addEventListener('click', function () {
             optionsHolder.forEach(element => {
+                console.log(hambMenuBtn);
+                console.log(optionsHolder);
                 // Alterna a classe 'hidden' de forma simplificada
-                element.classList.toggle('hidden');
+                // element.classList.toggle('hidden');
             });
         });
     } else {
