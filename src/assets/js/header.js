@@ -48,16 +48,13 @@ document.addEventListener('DOMContentLoaded', function () {
 // console.log('optionsHolder:', optionsHolder);
 
     // Verifica se os elementos existem antes de adicionar o evento
-    if (hambMenuBtn && optionsHolder.length > 0) {
-        hambMenuBtn.addEventListener('click', function () {
-            optionsHolder.forEach(element => {
-                console.log(hambMenuBtn);
-                console.log(optionsHolder);
-                // Alterna a classe 'hidden' de forma simplificada
-                // element.classList.toggle('hidden');
-            });
-        });
-    } else {
-        console.error('Elementos não encontrados no DOM.');
-    }
+    // if (hambMenuBtn && optionsHolder.length > 0) {
+    // hambMenuBtn.addEventListener('click', function () {
+    //     optionsHolder.forEach(element => {
+    //         element.classList.toggle('hidden');
+    //     });
+    // });
+    // } else {
+    //     console.error('Elementos não encontrados no DOM.');
+    // }
 });
