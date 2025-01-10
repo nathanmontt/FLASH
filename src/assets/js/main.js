@@ -30,25 +30,3 @@ function loadComponent(url, containerId) {
 }
 
 loadComponent("components/header.html", "header-container");
-
-/* ----------------------------------------------------------------------------------------------- */
-
-/* MENU* HAMBURGUER */
-const hambMenu = document.getElementById("hamb-menu-btn");
-const menuItemsHolder = document.querySelector(".menu-options");
-const itemLinks = document.querySelectorAll(".options-holder");
-
-document.addEventListener("DOMContentLoaded", function () {
-    document.addEventListener("DOMContentLoaded", function () {
-        hambMenu.addEventListener("click", function () {
-            console.log("teste");
-            itemLinks.forEach (function (item) {
-                if (item.classList.contains("hidden")) {
-                    item.classList.remove("hidden");
-                } else {
-                    item.classList.add("hidden");
-                }
-            });
-        });
-    });
-});
