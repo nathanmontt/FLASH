@@ -19,34 +19,25 @@
 // }
 
 
-let menuItems = document.querySelectorAll('.options-holder');
-let hambMenuBtn = document.getElementById('hamb-menu-btn').addEventListener('click', function () {
-    // if (hambMenuBtn && menuItems.length > 0) {
-    //     menuItems.forEach(element => {
-    //         element.classList.toggle('hidden');
-    //     });
-    // } else {
-    //     console.error('teste erro');
-    // }
-    menuItems.forEach(element => {
-        element.classList.toggle('hidden');
-    });
+document.addEventListener('click', function () {
 });
+let cont = 0;
+const hambMenuBtn = document.getElementById('hamb-menu-btn');
+const menuItems = document.querySelectorAll('.options-holder');
 
-// document.addEventListener('click', function () {
-
-//     // Check if elements exist before adding event listeners
-//     if (hambMenuBtn && menuItems.length > 0) {
-//         hambMenuBtn.addEventListener('click', function () {
-//             // Toggle 'hidden' class on each menu item
-//             menuItems.forEach(element => {
-//                 element.classList.toggle('hidden');
-//             });
-
-//             // Toggle 'active' class on the button for animation
-//             // hambMenuBtn.classList.toggle('active');
-//         });
-//     } else {
-//         console.error('teste erro');
-//     }
-// });
+// Check if elements exist before adding event listeners
+if (hambMenuBtn && menuItems.length > 0) {
+    hambMenuBtn.addEventListener('click', function () {
+        console.log(cont);
+        // Toggle 'hidden' class on each menu item
+        menuItems.forEach(element => {
+            element.classList.toggle('hidden');
+        });
+        
+        // Toggle 'active' class on the button for animation
+        // hambMenuBtn.classList.toggle('active');
+    });
+} else {
+    console.error('teste erro');
+}
+cont++; 
