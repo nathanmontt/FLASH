@@ -1,4 +1,4 @@
-'use strict'
+// 'use strict'
 
 // const hambMenuBtn = document.getElementById('hamb-menu-btn');
 // const optionsHolder = document.querySelectorAll('.options-holder');
@@ -37,9 +37,9 @@
 //     });
 // })
 
-document.addEventListener('DOMContentLoaded', function () {
-    const hambMenuBtn = document.querySelector('#hamb-menu-btn'); 
-    const optionsHolder = document.querySelectorAll('.options-holder');
+// document.addEventListener('DOMContentLoaded', function () {
+//     const hambMenuBtn = document.querySelector('#hamb-menu-btn'); 
+//     const optionsHolder = document.querySelectorAll('.options-holder');
 
     // console.log(hambMenuBtn); // Verifique se o botão está sendo encontrado
     // console.log(optionsHolder); // Verifique se os elementos com a classe estão sendo encontrados
@@ -57,4 +57,28 @@ document.addEventListener('DOMContentLoaded', function () {
     // } else {
     //     console.error('Elementos não encontrados no DOM.');
     // }
-});
+// });
+
+// document.addEventListener('DOMContentLoaded', function () {
+    
+// });
+
+// 'use strict';
+
+const hambMenuBtn = document.getElementById('hamb-menu-btn');
+const menu = document.querySelectorAll('.options-holder');
+
+// Check if elements exist before adding event listeners
+if (hambMenuBtn && menu.length > 0) {
+    hambMenuBtn.addEventListener('click', function () {
+        // Toggle 'hidden' class on each menu item
+        menu.forEach(element => {
+            element.classList.toggle('hidden');
+        });
+
+        // Toggle 'active' class on the button for animation
+        hambMenuBtn.classList.toggle('active');
+    });
+} else {
+    console.error('Elements not found in the DOM.');
+}
