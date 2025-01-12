@@ -19,16 +19,14 @@
 // }
 
 
-document.addEventListener('click', function () {
-});
-let cont = 0;
+// document.addEventListener('click', function () {
+// });
 const hambMenuBtn = document.getElementById('hamb-menu-btn');
 const menuItems = document.querySelectorAll('.options-holder');
 
 // Check if elements exist before adding event listeners
-if (hambMenuBtn && menuItems.length > 0) {
+if (hambMenuBtn && menuItems.length >= 0) {
     hambMenuBtn.addEventListener('click', function () {
-        console.log(cont);
         // Toggle 'hidden' class on each menu item
         menuItems.forEach(element => {
             element.classList.toggle('hidden');
@@ -40,4 +38,3 @@ if (hambMenuBtn && menuItems.length > 0) {
 } else {
     console.error('teste erro');
 }
-cont++; 
