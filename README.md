@@ -9,6 +9,7 @@
 * [Habilidades Necessárias](#abilities)
 * [Como executar](#execute)
 * [Contribuindo](#contribuition)
+* [Correções Futuras](#fut-corr)
 * [*Features* Futuras](#fut-feats)
 * [Inspirações](#inspirations)
 * [Links Úteis](#links)
@@ -39,6 +40,16 @@ OBS.: todos os links estão disponíveis na aba <a href="#links"> Links Úteis <
 <h1 id="contribuition"> Contribuindo </h1>
 
 No momento, não há contruibuições.
+
+
+<h1 id="fut-corr"> Correções Futuras </h1>
+
+Para futuras correções, é sempre bom deixar documentado:
+--
+Correção | Motivo
+:---------: | :------:
+**Header** | Ao invés de usar o _fetch_ como meio de trazer o cabeçalho, deixá-lo sempre fixo em  cada página. O erro no CORS ainda não foi consertado, então para fins de concluir o projeto, mudar a abordagem
+
 
 <!--
 <h1 id="fut-feats"> <em>Features</em> Futuras </h1>
