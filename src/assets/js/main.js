@@ -29,4 +29,4 @@ function loadComponent(url, containerId) {
     return true;
 }
 
-loadComponent("components/header.html", "header-container");
+// loadComponent("components/header.html", "header-container");
