@@ -10,8 +10,12 @@
   display: none;
 }
 
-.mt-10 {
+.mt-1em {
   margin-top: 1em;
+}
+
+.mb-1em {
+  margin-bottom: 1em;
 }
 
 /* ----- IMPORTS ----- */
