@@ -6,7 +6,7 @@ header {
     align-items: center;
     // border: 3px solid red;
 
-    padding: $big-padding;
+    padding: $padding-big;
     .container-logo-link-home {
         .name-company-link-home {
             font-family: $main-font;
@@ -19,16 +19,18 @@ header {
     
     .container-navigation-links {
         #hamb-menu-btn {
-            position: fixed;
-            z-index: 100;
-            top: 2rem;
-            right: 1rem;
-            // bottom: 1rem;
-            // border: 3px solid red;
+            cursor: $cursor-mode;
         }
-
+        
         .menu-options {
+            position: fixed;
+            // top: 0;
+            left: 0;
+            right: 0;
+            bottom: 50%;
             .options-holder {
+                border: 3px solid red;
+                // margin: $margin-big;
                 .links {
                     font-family: $main-font;
                     font-weight: $font-weight-paragraph;
