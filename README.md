@@ -45,7 +45,7 @@ No momento, não há contruibuições.
 <h1 id="fut-corr"> Correções Futuras </h1>
 
 Para futuras correções, é sempre bom deixar documentado:
---
+
 Correção | Motivo
 :---------: | :------:
 **Header** | Ao invés de usar o _fetch_ como meio de trazer o cabeçalho, deixá-lo sempre fixo em  cada página. O erro no CORS ainda não foi consertado, então para fins de concluir o projeto, mudar a abordagem
@@ -81,6 +81,7 @@ A seção abaixo foi adicionada para caso queira verificar algum conteúdo de es
 **SCSS** | <a href="https://www.alura.com.br/artigos/o-que-e-reset-css">Reset CSS: O que é, exemplos, como Criar e usar</a> <br> <a href="https://www.joshwcomeau.com/css/custom-css-reset/">A Modern CSS Reset</a> <br> 
 **Meta tags** | <a href="https://www.devmedia.com.br/html-meta-tags-entendendo-o-uso-de-meta-tags/30328">HTML Meta Tags: Entendendo o uso de Meta Tags</a> <br> <a href="https://ogp.me/">The Open Graph protocol</a> <br> <a href="https://www.treinaweb.com.br/blog/a-importancia-das-metatags-no-html">A importância das metatags no HTML</a> <br> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">Viewport meta tag</a>
 **fetch** | <a href="https://bobbyhadz.com/blog/a-listener-indicated-asynchronous-response-by-returning-true">Forgetting to return <strong>true</strong> when fetching data from cross-origin URLs</a> <br> <a href="https://www.freecodecamp.org/portuguese/news/fetch-api-como-fazer-solicitacoes-get-e-post-em-javascript/">Fetch API – como fazer solicitações GET e POST em JavaScript</a> <br> <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/DOMContentLoaded_event">DOMContentLoaded</a> <br> <a href="https://www.alura.com.br/artigos/como-resolver-erro-de-cross-origin-resource-sharing"> O que é CORS e como resolver um erro de Cross-Origin Resource Sharing (CORS)?</a> <br> <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors">CORS errors</a>
+**JS** | <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent">Node.textContent</a> <br> <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLElement/innerText">Node.innerText</a> <br> <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML">Element.innerHTML</a>
 
 <h1 id="credits"> Créditos </h1>
 
