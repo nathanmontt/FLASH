@@ -2,6 +2,7 @@
 /* Classes usadas diretamente no HTML */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .hidden {
   display: none;
 }
@@ -10,6 +11,13 @@
   margin-top: 1em;
 }
 
+/* ----- IMPORTS ----- */
+/* ----- COLORS ----- */
+/* -- Texts -- */
+/* -- Buttons -- */
+/* ----- FONTS ----- */
+/* ----- ARRANGEMENTS ----- */
+/* ----- OTHERS ----- */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -51,7 +59,7 @@ header .container-navigation-links #hamb-menu-btn {
 }
 header .container-navigation-links .menu-options {
   position: fixed;
-  left: 0;
+  left: 25%;
   right: 0;
   bottom: 50%;
 }
