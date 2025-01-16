@@ -1,4 +1,5 @@
 @import '../base/variables';
+@import '../state/hover';
 
 header {
     display: flex;
@@ -18,10 +19,6 @@ header {
     }
     
     .container-navigation-links {
-        #hamb-menu-btn {
-            cursor: $cursor-mode;
-        }
-        
         .menu-options {
             position: fixed;
             // top: 0;
@@ -35,6 +32,10 @@ header {
                     font-family: $main-font;
                     font-weight: $font-weight-paragraph;
                     color: $primary-color-text;
+
+                    &:hover {
+                        font-weight: $font-weight-menu-hover;
+                    }
                 }
             }
         }

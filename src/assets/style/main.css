@@ -3,6 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .hidden {
   display: none;
 }
@@ -42,6 +45,13 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- FONTS ----- */
 /* ----- ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
+/* ----- IMPORTS ----- */
+/* ----- COLORS ----- */
+/* -- Texts -- */
+/* -- Buttons -- */
+/* ----- FONTS ----- */
+/* ----- ARRANGEMENTS ----- */
+/* ----- OTHERS ----- */
 header {
   display: flex;
   justify-content: space-between;
@@ -53,9 +63,6 @@ header .container-logo-link-home .name-company-link-home {
   font-size: 1.3em;
   font-weight: 500;
   color: black;
-}
-header .container-navigation-links #hamb-menu-btn {
-  cursor: pointer;
 }
 header .container-navigation-links .menu-options {
   position: fixed;
@@ -71,6 +78,9 @@ header .container-navigation-links .menu-options .options-holder .links {
   font-weight: 300;
   color: black;
 }
+header .container-navigation-links .menu-options .options-holder .links:hover {
+  font-weight: 600;
+}
 
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */
@@ -80,11 +90,28 @@ header .container-navigation-links .menu-options .options-holder .links {
 /* ----- FONTS ----- */
 /* ----- ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
-.btn {
+/* ----- IMPORTS ----- */
+/* ----- COLORS ----- */
+/* -- Texts -- */
+/* -- Buttons -- */
+/* ----- FONTS ----- */
+/* ----- ARRANGEMENTS ----- */
+/* ----- OTHERS ----- */
+.btn-primary {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  color: black;
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
 /* ----- STATE ----- */
+/* ----- IMPORTS ----- */
+/* ----- COLORS ----- */
+/* -- Texts -- */
+/* -- Buttons -- */
+/* ----- FONTS ----- */
+/* ----- ARRANGEMENTS ----- */
+/* ----- OTHERS ----- */
 /* ----- THEME ----- *//*# sourceMappingURL=main.css.map */
