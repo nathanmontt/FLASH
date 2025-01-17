@@ -11,7 +11,11 @@
   display: none;
 }
 
-/* -- MEASURES -- */
+/* -- MEASURES - MARGIN -- */
+.mg-1 {
+  margin: 1em;
+}
+
 .mt-1 {
   margin-top: 1em;
 }
@@ -64,12 +68,18 @@
   margin-bottom: 5em;
 }
 
+/* -- MEASURES - PADDING -- */
+.pg-1 {
+  padding: 1em;
+}
+
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
-/* ----- ARRANGEMENTS ----- */
+/* ----- DEFAUTLT ARRANGEMENTS ----- */
+/* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -93,14 +103,16 @@ p, h1, h2, h3, h4, h5, h6 {
 /* -- Texts -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
-/* ----- ARRANGEMENTS ----- */
+/* ----- DEFAUTLT ARRANGEMENTS ----- */
+/* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
-/* ----- ARRANGEMENTS ----- */
+/* ----- DEFAUTLT ARRANGEMENTS ----- */
+/* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 header {
   display: flex;
@@ -115,31 +127,20 @@ header .container-logo-link-home .name-company-link-home {
   font-weight: 500;
   color: black;
 }
-header .container-navigation-links .overlay {
-  border: 3px solid red;
-  position: fixed;
-  top: 10%;
-  left: 25%;
-  right: 0;
-  bottom: 50%;
+header .container-navigation-links .navbar {
+  position: relative;
 }
-header .container-navigation-links .menu-options {
-  z-index: 1;
+header .container-navigation-links .navbar .menu-options-holder {
   position: absolute;
-  top: 10%;
-  left: 25%;
   right: 0;
-  bottom: 50%;
-}
-header .container-navigation-links .menu-options .options-holder {
   border: 3px solid red;
 }
-header .container-navigation-links .menu-options .options-holder .links {
+header .container-navigation-links .navbar .menu-options-holder .options-holder .links {
   font-family: "Roboto", serif;
   font-weight: 300;
   color: black;
 }
-header .container-navigation-links .menu-options .options-holder .links:hover {
+header .container-navigation-links .navbar .menu-options-holder .options-holder .links:hover {
   font-weight: 600;
 }
 
@@ -149,14 +150,16 @@ header .container-navigation-links .menu-options .options-holder .links:hover {
 /* -- Texts -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
-/* ----- ARRANGEMENTS ----- */
+/* ----- DEFAUTLT ARRANGEMENTS ----- */
+/* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
-/* ----- ARRANGEMENTS ----- */
+/* ----- DEFAUTLT ARRANGEMENTS ----- */
+/* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 .btn-primary {
   font-family: "Roboto", serif;
@@ -173,6 +176,7 @@ header .container-navigation-links .menu-options .options-holder .links:hover {
 /* -- Texts -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
-/* ----- ARRANGEMENTS ----- */
+/* ----- DEFAUTLT ARRANGEMENTS ----- */
+/* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 /* ----- THEME ----- *//*# sourceMappingURL=main.css.map */

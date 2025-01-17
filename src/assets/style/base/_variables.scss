@@ -29,7 +29,7 @@ $font-weight-title: 500;
 $font-weight-paragraph: 300;
 $font-weight-menu-hover: 600;
 
-/* ----- ARRANGEMENTS ----- */
+/* ----- DEFAUTLT ARRANGEMENTS ----- */
 $padding-small: 0.5em;
 $padding-medium: 1em;
 $padding-big: 1.5em;
@@ -37,6 +37,22 @@ $padding-big: 1.5em;
 $margin-small: 0.4em;
 $margin-medium: 1em;
 $margin-big: 1.4em;
+
+/* ----- SPECIFIC ARRANGEMENTS ----- */
+$padding-small-top: 0.7em;
+$padding-small-right: 0.7em;
+$padding-small-bottom: 0.7em;
+$padding-small-left: 0.7em;
+
+$padding-medium-top: 1.1em;
+$padding-medium-right: 1.1em;
+$padding-medium-bottom: 1.1em;
+$padding-medium-left: 1.1em;
+
+$padding-big-top: 2em;
+$padding-big-right: 2em;
+$padding-big-bottom: 2em;
+$padding-big-left: 2em;
 
 /* ----- OTHERS ----- */
 $cursor-mode: pointer;

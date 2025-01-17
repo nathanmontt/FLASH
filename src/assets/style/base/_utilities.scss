@@ -4,7 +4,9 @@
 .hidden { display: none; }
 
 
-/* -- MEASURES -- */
+/* -- MEASURES - MARGIN -- */
+.mg-1 {margin: 1em;}
+
 .mt-1 { margin-top: 1em; }
 .mt-2 { margin-top: 2em; }
 .mt-5 { margin-top: 5em; }
@@ -21,3 +23,7 @@
 .mb-1 { margin-bottom: 1em; }
 .mb-2 { margin-bottom: 2em; }
 .mb-5 { margin-bottom: 5em; }
+
+/* -- MEASURES - PADDING -- */
+
+.pg-1 { padding: 1em; }
