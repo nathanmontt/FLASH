@@ -114,33 +114,33 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
-header {
+#header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 3px solid blue;
   padding: 1.5em;
 }
-header .container-logo-link-home .name-company-link-home {
+#header-container .container-logo-link-home .name-company-link-home {
   font-family: "Roboto", serif;
   font-size: 1.3em;
   font-weight: 500;
   color: black;
 }
-header .container-navigation-links .navbar {
+#header-container .container-navigation-links .navbar {
   position: relative;
 }
-header .container-navigation-links .navbar .menu-options-holder {
+#header-container .container-navigation-links .navbar .menu-options-holder {
   position: absolute;
   right: 0;
   border: 3px solid red;
 }
-header .container-navigation-links .navbar .menu-options-holder .options-holder .links {
+#header-container .container-navigation-links .navbar .menu-options-holder .options-holder .links {
   font-family: "Roboto", serif;
   font-weight: 300;
   color: black;
 }
-header .container-navigation-links .navbar .menu-options-holder .options-holder .links:hover {
+#header-container .container-navigation-links .navbar .menu-options-holder .options-holder .links:hover {
   font-weight: 600;
 }
 
