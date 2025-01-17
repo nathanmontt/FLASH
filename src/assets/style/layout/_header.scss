@@ -5,7 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // border: 3px solid red;
+    border: 3px solid blue;
 
     padding: $padding-big;
     .container-logo-link-home {
@@ -19,7 +19,17 @@ header {
     }
     
     .container-navigation-links {
+        .overlay {
+            border: 3px solid red;
+            position: fixed;
+            top: 10%;
+            left: 25%;
+            right: 0;
+            bottom: 0;
+        }
+
         .menu-options {
+            z-index: 1;
             position: fixed;
             // top: 0;
             left: 25%;

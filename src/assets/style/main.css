@@ -60,6 +60,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 3px solid blue;
   padding: 1.5em;
 }
 header .container-logo-link-home .name-company-link-home {
@@ -68,7 +69,16 @@ header .container-logo-link-home .name-company-link-home {
   font-weight: 500;
   color: black;
 }
+header .container-navigation-links .overlay {
+  border: 3px solid red;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  right: 0;
+  bottom: 0;
+}
 header .container-navigation-links .menu-options {
+  z-index: 1;
   position: fixed;
   left: 25%;
   right: 0;

@@ -1,6 +1,7 @@
 const hambMenuBtn = document.getElementById('hamb-menu-btn');
 const menuItems = document.querySelectorAll('.options-holder');
 const hambMenuBtnClore = document.querySelector('.hamb-menu-btn-close');
+const overlay = document.querySelector('.overlay');
 
 // Check if elements exist before adding event listeners
 if (hambMenuBtn && menuItems.length > 0) {
@@ -10,14 +11,15 @@ if (hambMenuBtn && menuItems.length > 0) {
             if (element.classList.contains('hidden')) {
                 element.classList.remove('hidden');
                 hambMenuBtn.textContent = 'FECHAR';
+                
+                overlay.classList.remove('hidden');
             } else {
                 element.classList.add('hidden');
                 hambMenuBtn.style.display = 'block';
                 hambMenuBtn.textContent = 'MENU';
+
+                overlay.classList.add('hidden');
             }
         });
-
-        // Toggle 'active' class on the button for animation
-        hambMenuBtn.classList.toggle('active');
     });
 }
