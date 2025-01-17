@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid blue;
+    // border: 3px solid blue;
 
     padding: $padding-big;
     .container-logo-link-home {
@@ -24,13 +24,16 @@
             .menu-options-holder {
                 position: absolute;
                 right: 0;
-                // padding: $padding-big-top $padding-small-right;
+                // padding: $padding-medium;
                 // z-index: 1;
                 // top: 10%;
-                // left: 0;
+                // left: 15%;
                 // bottom: 50%;
-                border: 3px solid red;
+                border: $border-menu-size solid $border-menu-color;
+                background-color: $border-menu-bgcolor;
                 .options-holder {
+                    // border: 3px solid salmon;
+                    text-align: right;
                     // padding: $padding-big;
                     .links {
                         font-family: $main-font;

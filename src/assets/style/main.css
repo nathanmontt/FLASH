@@ -77,6 +77,7 @@
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
+/* -- Menu -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
@@ -102,6 +103,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
+/* -- Menu -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
@@ -110,6 +112,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
+/* -- Menu -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
@@ -119,7 +122,6 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 3px solid blue;
   padding: 1.5em;
 }
 #header-container .container-logo-link-home .name-company-link-home {
@@ -134,7 +136,11 @@ p, h1, h2, h3, h4, h5, h6 {
 #header-container .container-navigation-links .navbar .menu-options-holder {
   position: absolute;
   right: 0;
-  border: 3px solid red;
+  border: 0.01em solid black;
+  background-color: white;
+}
+#header-container .container-navigation-links .navbar .menu-options-holder .options-holder {
+  text-align: right;
 }
 #header-container .container-navigation-links .navbar .menu-options-holder .options-holder .links {
   font-family: "Roboto", serif;
@@ -148,15 +154,24 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
+/* -- Menu -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
+#hero-container {
+  min-height: 100vh;
+  background-image: url("/src/assets/img/luis-de-leon-unsplash-hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
+/* -- Menu -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
@@ -165,6 +180,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
+/* -- Menu -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
@@ -183,6 +199,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
 /* -- Texts -- */
+/* -- Menu -- */
 /* -- Buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
