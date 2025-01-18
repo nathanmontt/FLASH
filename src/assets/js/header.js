@@ -2,7 +2,6 @@ const hambMenuBtn = document.getElementById('hamb-menu-btn');
 const menuItems = document.querySelectorAll('.options-holder');
 const menuItemsHolder = document.querySelector('.menu-options-holder');
 
-
 // Check if elements exist before adding event listeners
 if (hambMenuBtn && menuItems.length > 0) {
     hambMenuBtn.addEventListener('click', function () {
