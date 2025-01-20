@@ -30,7 +30,7 @@ function loadComponent(url, containerId) {
     return true;
 }
 
-loadComponent("components/header.html", );
+loadComponent("components/header.html", "header-container");
 
 // document.querySelectorAll('[nav-links]').forEach(link => {
 //     const contentContainer = document.getElementById('content-container');

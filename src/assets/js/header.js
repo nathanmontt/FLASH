@@ -16,7 +16,7 @@ if (hambMenuBtn && menuItems.length > 0) {
                 // overlay.classList.remove('hidden');
             } else {
                 element.classList.add('hidden');
-                hambMenuBtn.style.display = 'block';
+                // hambMenuBtn.style.display = 'block';
                 hambMenuBtn.textContent = 'MENU';
 
                 menuItemsHolder.classList.remove('pg-1');
