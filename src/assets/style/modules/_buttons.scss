@@ -11,4 +11,7 @@
     cursor: $cursor-mode;
 }
 
-.btn-explore {}
+.btn-explore {
+    cursor: $cursor-mode;
+    padding: $padding-medium $padding-big-right;
+}
