@@ -9,7 +9,7 @@ $primary-color-text: black;
 // $dark-color: #333333;
 
 /* -- background -- */
-
+$opacity-bg: #00000095;
 
 /* -- menu -- */
 $border-menu-color: black;
@@ -26,20 +26,23 @@ $bg-color-btn: transparent;
 
 
 /* ----- FONTS ----- */
-// type
+
+/* -- type -- */
 $main-font: 'Roboto', serif;
 
-// size
+/* -- size -- */
 $font-size-logo-title: 1.3em;
 $font-size-paragraph: 0.9em;
 
 $font-size-slogan-title: 2em;
 
-// weight
+/* -- weight -- */
 $font-weight-title: 500;
 $font-weight-paragraph: 300;
 $font-weight-menu-hover: 600;
 
+/* -- colors -- */
+$main-text-color: white;
 
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 $padding-small: 0.5em;
@@ -70,3 +73,5 @@ $padding-big-left: 2em;
 
 /* ----- OTHERS ----- */
 $cursor-mode: pointer;
+$main-height: 100vh;
+$sec-height: 92vh;

@@ -30,6 +30,10 @@ p, h1, h2, h3, h4, h5, h6 {
 /* -- menu -- */
 /* -- buttons -- */
 /* ----- FONTS ----- */
+/* -- type -- */
+/* -- size -- */
+/* -- weight -- */
+/* -- colors -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -108,6 +112,10 @@ p, h1, h2, h3, h4, h5, h6 {
 /* -- menu -- */
 /* -- buttons -- */
 /* ----- FONTS ----- */
+/* -- type -- */
+/* -- size -- */
+/* -- weight -- */
+/* -- colors -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -119,6 +127,10 @@ p, h1, h2, h3, h4, h5, h6 {
 /* -- menu -- */
 /* -- buttons -- */
 /* ----- FONTS ----- */
+/* -- type -- */
+/* -- size -- */
+/* -- weight -- */
+/* -- colors -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -129,6 +141,10 @@ p, h1, h2, h3, h4, h5, h6 {
 /* -- menu -- */
 /* -- buttons -- */
 /* ----- FONTS ----- */
+/* -- type -- */
+/* -- size -- */
+/* -- weight -- */
+/* -- colors -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -172,6 +188,10 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 /* -- menu -- */
 /* -- buttons -- */
 /* ----- FONTS ----- */
+/* -- type -- */
+/* -- size -- */
+/* -- weight -- */
+/* -- colors -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -182,15 +202,15 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
   background-position: center;
 }
 #hero-content .container-hero {
-  min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.4784313725);
+  min-height: 92vh;
+  background-color: rgba(0, 0, 0, 0.5843137255);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border: 3px solid red;
+  align-items: flex-start;
 }
 #hero-content .container-hero .hero-slogan {
+  color: white;
   font-size: 2em;
 }
 
@@ -202,6 +222,10 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 /* -- menu -- */
 /* -- buttons -- */
 /* ----- FONTS ----- */
+/* -- type -- */
+/* -- size -- */
+/* -- weight -- */
+/* -- colors -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -212,6 +236,10 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 /* -- menu -- */
 /* -- buttons -- */
 /* ----- FONTS ----- */
+/* -- type -- */
+/* -- size -- */
+/* -- weight -- */
+/* -- colors -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -232,6 +260,10 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 /* -- menu -- */
 /* -- buttons -- */
 /* ----- FONTS ----- */
+/* -- type -- */
+/* -- size -- */
+/* -- weight -- */
+/* -- colors -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
