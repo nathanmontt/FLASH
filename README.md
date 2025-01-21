@@ -51,17 +51,16 @@ Correção | Motivo
 **Header** | Ao invés de usar o _fetch_ como meio de trazer o cabeçalho, deixá-lo sempre fixo em  cada página. O erro no CORS ainda não foi consertado, então para fins de concluir o projeto, mudar a abordagem
 
 
-<!--
+
 <h1 id="fut-feats"> <em>Features</em> Futuras </h1>
 
 Para futuras <em>features</em>, alguns opções podem ser levadas em consideração:
---
+
 *Feature* | Motivo
 :---------: | :------:
-**Imagem** | Consertar a imagem que está dando problema (**CORRIGIDO**)
-**Páginas** | Adicionar mais páginas, como *About Us*, *Products*, entre outros, e não apenas o *card* como está
-**Responsividade** | Tornar a aplicação mais responsiva (para próximos projetos, aplicar o conceito de *mobile first*)
--->
+**Abordagem** | Como o site está sendo desenvolvido em _mobile first_, concluir, ao final, a parte de _desktop_
+***Mode*** | Adicionar **dark** e **light modes** no decorrer do projeto
+
 
 <h1 id="inspirations"> Inspirações </h1>
 
