@@ -25,9 +25,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
-/* -- Texts -- */
-/* -- Menu -- */
-/* -- Buttons -- */
+/* -- texts -- */
+/* -- background -- */
+/* -- menu -- */
+/* -- buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
@@ -102,9 +103,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
-/* -- Texts -- */
-/* -- Menu -- */
-/* -- Buttons -- */
+/* -- texts -- */
+/* -- background -- */
+/* -- menu -- */
+/* -- buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
@@ -112,18 +114,20 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ----- LAYOUT ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
-/* -- Texts -- */
-/* -- Menu -- */
-/* -- Buttons -- */
+/* -- texts -- */
+/* -- background -- */
+/* -- menu -- */
+/* -- buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
-/* -- Texts -- */
-/* -- Menu -- */
-/* -- Buttons -- */
+/* -- texts -- */
+/* -- background -- */
+/* -- menu -- */
+/* -- buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
@@ -163,35 +167,50 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
-/* -- Texts -- */
-/* -- Menu -- */
-/* -- Buttons -- */
+/* -- texts -- */
+/* -- background -- */
+/* -- menu -- */
+/* -- buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
-#hero-container {
-  min-height: 100vh;
+#hero-content {
+  min-height: 92vh;
   background-image: url("/src/assets/img/luis-de-leon-unsplash-hero.jpg");
   background-size: cover;
   background-position: center;
+}
+#hero-content .container-hero {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4784313725);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+}
+#hero-content .container-hero .hero-slogan {
+  font-size: 2em;
 }
 
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
-/* -- Texts -- */
-/* -- Menu -- */
-/* -- Buttons -- */
+/* -- texts -- */
+/* -- background -- */
+/* -- menu -- */
+/* -- buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
-/* -- Texts -- */
-/* -- Menu -- */
-/* -- Buttons -- */
+/* -- texts -- */
+/* -- background -- */
+/* -- menu -- */
+/* -- buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
@@ -208,9 +227,10 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 /* ----- STATE ----- */
 /* ----- IMPORTS ----- */
 /* ----- COLORS ----- */
-/* -- Texts -- */
-/* -- Menu -- */
-/* -- Buttons -- */
+/* -- texts -- */
+/* -- background -- */
+/* -- menu -- */
+/* -- buttons -- */
 /* ----- FONTS ----- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */

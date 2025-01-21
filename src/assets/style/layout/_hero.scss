@@ -1,8 +1,22 @@
 @import '../base/variables';
 
-#hero-container {
-    min-height: 100vh;
+#hero-content {
+    min-height: 92vh;
     background-image: url("/src/assets/img/luis-de-leon-unsplash-hero.jpg");
     background-size: cover;
     background-position: center;
+
+    .container-hero {
+        min-height: 100vh;
+        background-color: #0000007a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border: 3px solid red;
+        .hero-slogan {
+            font-size: $font-size-slogan-title;
+        }
+    }
 }

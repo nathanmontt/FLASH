@@ -2,18 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* ----- COLORS ----- */
-/* -- Texts -- */
+/* -- texts -- */
 $primary-color-text: black;
 // $secondary-color: #4caf50;
 // $light-color: #ffffff;
 // $dark-color: #333333;
 
-/* -- Menu -- */
+/* -- background -- */
+
+
+/* -- menu -- */
 $border-menu-color: black;
 $border-menu-bgcolor: white;
 $border-menu-size: 0.01em;
 
-/* -- Buttons -- */
+/* -- buttons -- */
 $primary-color-white-mode-bnt: black;
 $primary-color-dark-mode-bnt: white;
 $border-white-mode-btn: black;
@@ -21,18 +24,22 @@ $border-dark-mode-btn: white;
 $border-no-hover: none;
 $bg-color-btn: transparent;
 
+
 /* ----- FONTS ----- */
 // type
 $main-font: 'Roboto', serif;
 
 // size
-$font-size-title: 1.3em;
+$font-size-logo-title: 1.3em;
 $font-size-paragraph: 0.9em;
+
+$font-size-slogan-title: 2em;
 
 // weight
 $font-weight-title: 500;
 $font-weight-paragraph: 300;
 $font-weight-menu-hover: 600;
+
 
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 $padding-small: 0.5em;
@@ -42,6 +49,7 @@ $padding-big: 1.5em;
 $margin-small: 0.4em;
 $margin-medium: 1em;
 $margin-big: 1.4em;
+
 
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 $padding-small-top: 0.7em;
@@ -58,6 +66,7 @@ $padding-big-top: 2em;
 $padding-big-right: 2em;
 $padding-big-bottom: 2em;
 $padding-big-left: 2em;
+
 
 /* ----- OTHERS ----- */
 $cursor-mode: pointer;
