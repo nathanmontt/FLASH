@@ -1,21 +1,37 @@
 /* ----- IMPORTS ----- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+/* ----- FONTS ----- */
+/* -- type -- */
+$main-font: 'Roboto', serif;
+
+/* -- size -- */
+$font-size-titles: 1.3em;
+$font-size-paragraphs: 0.9em;
+$font-size-slogan: 1.7em;
+
+/* -- weight -- */
+$font-weight-title: 500;
+$font-weight-paragraph: 300;
+
+
 /* ----- COLORS ----- */
-/* -- texts -- */
+/* -- main -- */
 $primary: black;
 $secondary: white;
+
+/* -- main -- */
 // $secondary-color: #4caf50;
 // $light-color: #ffffff;
 // $dark-color: #333333;
 
 /* -- background -- */
-$opacity-bg: #00000095;
+$opacity-bg: #000000a8;
 
 /* -- menu -- */
 $border-menu-color: black;
 $border-menu-bgcolor: white;
-$border-menu-size: 0.01em;
 
 /* -- buttons -- */
 $primary-color-white-mode-bnt: black;
@@ -25,24 +41,6 @@ $border-dark-mode-btn: white;
 $border-no-hover: none;
 $bg-color-btn: transparent;
 
-
-/* ----- FONTS ----- */
-
-/* -- type -- */
-$main-font: 'Roboto', serif;
-
-/* -- size -- */
-$font-size-logo-title: 1.3em;
-$font-size-paragraph: 0.9em;
-$font-size-slogan: 1.7em;
-
-/* -- weight -- */
-$font-weight-title: 500;
-$font-weight-paragraph: 300;
-$font-weight-menu-hover: 600;
-
-/* -- colors -- */
-$main-text-color: white;
 
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 $padding-small: 0.5em;
@@ -72,6 +70,7 @@ $padding-big-left: 2em;
 
 
 /* ----- OTHERS ----- */
+$border-menu-size: 0.01em;
 $cursor-mode: pointer;
 $main-height: 100vh;
 $sec-height: 100vh;

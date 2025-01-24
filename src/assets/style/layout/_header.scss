@@ -15,7 +15,7 @@ header {
     .container-logo-link-home {
         .name-company-link-home {
             font-family: $main-font;
-            font-size: $font-size-logo-title; 
+            font-size: $font-size-titles; 
             font-weight: $font-weight-title;
             
             color: $secondary;
@@ -23,12 +23,16 @@ header {
     }
     
     .container-navigation-links {
+        #hamb-menu-btn {
+            color: $secondary;
+        }
+
         .navbar {
             position: relative;
             .menu-options-holder {
                 position: absolute;
                 right: 0;
-                // padding: $padding-medium;
+                padding: $padding-medium;
                 // z-index: 1;
                 // top: 10%;
                 // left: 15%;
@@ -43,10 +47,6 @@ header {
                         font-family: $main-font;
                         font-weight: $font-weight-paragraph;
                         color: $primary;
-    
-                        &:hover {
-                            font-weight: $font-weight-menu-hover;
-                        }
                     }
                 }
             }
