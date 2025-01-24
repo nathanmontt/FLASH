@@ -6,6 +6,7 @@
     background-size: cover;
     background-position: center;
 
+    
     .container-hero {
         min-height: $sec-height;
         background-color: $opacity-bg;
@@ -13,11 +14,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
+        
         // border: 3px solid red;
         .hero-slogan {
             color: $main-text-color;
-            font-size: $font-size-slogan-title;
+            font-family: $main-font;
+            font-size: $font-size-slogan;
         }
     }
 }

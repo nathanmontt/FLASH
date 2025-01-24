@@ -12,6 +12,13 @@
 }
 
 .btn-explore {
+    // border: 3px solid red;
+    position: absolute;
+    // top: 0;
+    // right: 0;
+    bottom: 2em;
+    // left: 0;
     cursor: $cursor-mode;
+    font-family: $main-font;
     padding: $padding-medium $padding-big-right;
 }
