@@ -298,11 +298,20 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 }
 
 .btn-explore {
+  color: white;
+  border: 0.01em solid black;
+  background-color: transparent;
   position: absolute;
   bottom: 2em;
-  cursor: pointer;
   font-family: "Roboto", serif;
+  font-weight: 300;
   padding: 1em 2em;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s;
+}
+.btn-explore:hover {
+  color: black;
+  background-color: white;
 }
 
 /* ----- STATE ----- */
