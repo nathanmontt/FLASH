@@ -32,13 +32,13 @@ header {
             .menu-options-holder {
                 position: absolute;
                 right: 0;
-                padding: $padding-medium;
+                // padding: $padding-medium;
                 // z-index: 1;
                 // top: 10%;
                 // left: 15%;
                 // bottom: 50%;
                 border: $border-menu-size solid $border-menu-color;
-                background-color: $border-menu-bgcolor;
+                background-color: $border-menu-bg-color;
                 .options-holder {
                     // border: 3px solid salmon;
                     text-align: right;

@@ -5,9 +5,9 @@
     font-family: $main-font;
     font-weight: $font-weight-paragraph;
 
-    background-color: $bg-color-btn;
-    border: $border-no-hover;
-    
+    background-color: $no-border-color-btn;
+    border: $no-border;
+
     cursor: $cursor-mode;
 }
 

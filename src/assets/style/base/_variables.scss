@@ -21,25 +21,16 @@ $font-weight-paragraph: 300;
 $primary: black;
 $secondary: white;
 
-/* -- main -- */
-// $secondary-color: #4caf50;
-// $light-color: #ffffff;
-// $dark-color: #333333;
+/* -- modes -- */
+$color-white-mode-bnt: black;
+$color-dark-mode-bnt: white;
 
 /* -- background -- */
 $opacity-bg: #000000a8;
 
 /* -- menu -- */
 $border-menu-color: black;
-$border-menu-bgcolor: white;
-
-/* -- buttons -- */
-$primary-color-white-mode-bnt: black;
-$primary-color-dark-mode-bnt: white;
-$border-white-mode-btn: black;
-$border-dark-mode-btn: white;
-$border-no-hover: none;
-$bg-color-btn: transparent;
+$border-menu-bg-color: white;
 
 
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
@@ -70,7 +61,12 @@ $padding-big-left: 2em;
 
 
 /* ----- OTHERS ----- */
+$no-border: none;
+$no-border-color-btn: transparent;
+
 $border-menu-size: 0.01em;
+
 $cursor-mode: pointer;
+
 $main-height: 100vh;
 $sec-height: 100vh;
