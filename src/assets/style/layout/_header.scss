@@ -5,7 +5,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // border: 3px solid blue;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 3px solid blue;
 
     padding: $padding-big;
     .container-logo-link-home {
@@ -14,7 +19,7 @@ header {
             font-size: $font-size-logo-title; 
             font-weight: $font-weight-title;
             
-            color: $primary-color-text;
+            color: $secondary;
         }
     }
     
@@ -38,7 +43,7 @@ header {
                     .links {
                         font-family: $main-font;
                         font-weight: $font-weight-paragraph;
-                        color: $primary-color-text;
+                        color: $primary;
     
                         &:hover {
                             font-weight: $font-weight-menu-hover;
