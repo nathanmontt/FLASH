@@ -31,6 +31,7 @@ function loadComponent(url, containerId) {
 }
 
 loadComponent("components/header.html", "header-fetch-content");
+loadComponent("pages/values.html", "header-fetch-content-nav");
 
 // document.querySelectorAll('[nav-links]').forEach(link => {
 //     const contentContainer = document.getElementById('content-container');

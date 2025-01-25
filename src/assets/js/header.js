@@ -4,6 +4,8 @@ const hambMenuBtn = document.getElementById('hamb-menu-btn');
 const menuItems = document.querySelectorAll('.options-holder');
 const menuItemsHolder = document.querySelector('.menu-options-holder');
 
+const holderValues = document.getElementById('header-fetch-content-nav');
+
 // Check if elements exist before adding event listeners
 console.log(hambMenuBtn);
 console.log(menuItems);
@@ -25,4 +27,8 @@ if (hambMenuBtn && menuItems.length > 0) {
             }
         });
     });
+}
+
+if (holderValues) {
+    holderValues.style.backgroundColor = "black";
 }
