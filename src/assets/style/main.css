@@ -313,41 +313,6 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 #general-main-content {
   min-height: 100vh;
 }
-#general-main-content .container-categories {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  overflow-x: hidden;
-}
-#general-main-content .container-categories .container-card .zoom-in-out {
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-#general-main-content .container-categories .container-card .zoom-in-out .category-img {
-  width: 100%;
-  aspect-ratio: 0.7/1;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-#general-main-content .container-categories .container-card .container-type-text {
-  display: flex;
-  justify-content: space-between;
-  margin: 0.4em;
-  font-family: "Roboto", serif;
-}
-#general-main-content .container-categories .container-card .container-type-text .category-name {
-  font-weight: 500;
-}
-#general-main-content .container-categories .container-card .container-type-text .see-more-link {
-  color: black;
-  font-weight: 300;
-}
-#general-main-content .container-categories .container-card .container-type-text .see-more-link:hover {
-  color: #d1ac08;
-}
-#general-main-content .container-categories .bottom-category {
-  text-align: center;
-  grid-column: 1/-1;
-}
 
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */

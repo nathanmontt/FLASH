@@ -3,47 +3,47 @@
 #general-main-content {
     min-height: 100vh;
 
-    .container-categories {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        overflow-x: hidden;
+    // .container-categories {
+    //     display: grid;
+    //     grid-template-columns: repeat(2, 1fr);
+    //     overflow-x: hidden;
         
-        .container-card {
-            // margin: $margin-small;
-            // border: $border-size solid $primary;
-            .zoom-in-out {
-                object-fit: fill;
-                .category-img {
-                    width: 100%;
-                    aspect-ratio: .7/1;
-                    object-fit: cover;
-                }
-            }
+    //     .container-card {
+    //         // margin: $margin-small;
+    //         // border: $border-size solid $primary;
+    //         .zoom-in-out {
+    //             object-fit: fill;
+    //             .category-img {
+    //                 width: 100%;
+    //                 aspect-ratio: .7/1;
+    //                 object-fit: cover;
+    //             }
+    //         }
             
-            .container-type-text {
-                display: flex;
-                justify-content: space-between;
-                margin: $margin-small;
+    //         .container-type-text {
+    //             display: flex;
+    //             justify-content: space-between;
+    //             margin: $margin-small;
 
-                font-family: $main-font;
-                .category-name {
-                    font-weight: $font-weight-title;
-                }
+    //             font-family: $main-font;
+    //             .category-name {
+    //                 font-weight: $font-weight-title;
+    //             }
 
-                .see-more-link {
-                    color: $primary;
-                    font-weight: $font-weight-paragraph;
+    //             .see-more-link {
+    //                 color: $primary;
+    //                 font-weight: $font-weight-paragraph;
                     
-                    &:hover {
-                        color: $tertiary;
-                    }
-                }
-            }
-        }
+    //                 &:hover {
+    //                     color: $tertiary;
+    //                 }
+    //             }
+    //         }
+    //     }
 
-        .bottom-category {
-            text-align: center;
-            grid-column: 1 / -1;
-        }
-    }
+    //     .bottom-category {
+    //         text-align: center;
+    //         grid-column: 1 / -1;
+    //     }
+    // }
 }
