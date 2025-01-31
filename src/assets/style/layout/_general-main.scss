@@ -1,7 +1,16 @@
 @import '../base/variables';
 
 #general-main-content {
-    min-height: 100vh;
+    .container-logo {
+        padding: $padding-medium-left;
+
+        font-family: $main-font;
+        .company-name {}
+        .company-slogan {
+            font-weight: $font-weight-paragraph;
+        }
+    }
+    // min-height: 100vh;
 
     // .container-categories {
     //     display: grid;
