@@ -1,0 +1,16 @@
+@import '../base/variables';
+
+#general-main-content {
+    min-height: 100vh;
+
+    .container-categories {
+        .container-card {
+            .category-img {}
+
+            .container-type-text {
+                .category-name {}
+                .see-more-link {}
+            }
+        }
+    }
+}

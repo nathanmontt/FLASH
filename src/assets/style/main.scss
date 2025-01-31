@@ -1,6 +1,5 @@
 /* ----- BASE ----- */
 @import 'base/reset';
-@import 'base/typography';
 @import 'base/utilities';
 @import 'base/variables';
 
@@ -8,7 +7,7 @@
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/values';
-@import 'layout/general-main';
+@import 'layout/main';
 
 /* ----- MODULES ----- */
 @import 'modules/buttons';
