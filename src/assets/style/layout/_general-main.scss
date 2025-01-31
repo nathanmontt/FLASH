@@ -2,19 +2,24 @@
 
 #general-main-content {
     min-height: 100vh;
+    border: 3px solid blue;
 
     .container-categories {
+        object-fit: contain;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        border: 5px solid green;
+    
         .container-card {
             .zoom-in-out {
                 border: 3px solid red;
                 .category-img {
-                    width: 10em;
-                    
+                    width: 15em;
+                    aspect-ratio: .8/.8;
+                    object-fit: contain;
                     // transition: width .5s;
                     // &:hover {
-                    //     width: 12em;
+                    //     width: 17em;
                     // }
                 }
             }
@@ -23,6 +28,13 @@
                 .category-name {}
                 .see-more-link {}
             }
+        }
+
+        .bottom-category {
+            text-align: center;
+            grid-column: 1 / -1;
+            // grid-column: 1 / span 3;
+            // grid-row: third-line / 2;
         }
     }
 }
