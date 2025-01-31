@@ -282,7 +282,14 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 #general-main-content {
   min-height: 100vh;
 }
-#general-main-content .container-categories .container-card .category-img {
+#general-main-content .container-categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#general-main-content .container-categories .container-card .zoom-in-out {
+  border: 3px solid red;
+}
+#general-main-content .container-categories .container-card .zoom-in-out .category-img {
   width: 10em;
 }
 /* ----- MODULES ----- */

@@ -1,0 +1,28 @@
+@import '../base/variables';
+
+#general-main-content {
+    min-height: 100vh;
+
+    .container-categories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .container-card {
+            .zoom-in-out {
+                border: 3px solid red;
+                .category-img {
+                    width: 10em;
+                    
+                    // transition: width .5s;
+                    // &:hover {
+                    //     width: 12em;
+                    // }
+                }
+            }
+
+            .container-type-text {
+                .category-name {}
+                .see-more-link {}
+            }
+        }
+    }
+}
