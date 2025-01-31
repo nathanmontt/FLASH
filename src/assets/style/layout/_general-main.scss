@@ -2,19 +2,19 @@
 
 #general-main-content {
     min-height: 100vh;
-    border: 3px solid blue;
 
     .container-categories {
-        object-fit: contain;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        border: 5px solid green;
-    
+        overflow-x: hidden;
+        
         .container-card {
+            margin: $margin-small;
+            border: .01em solid $primary;
             .zoom-in-out {
-                border: 3px solid red;
+                object-fit: cover;
                 .category-img {
-                    width: 15em;
+                    width: 100%;
                     aspect-ratio: .8/.8;
                     object-fit: contain;
                     // transition: width .5s;
@@ -25,6 +25,9 @@
             }
 
             .container-type-text {
+                display: flex;
+                justify-content: space-between;
+                margin: $margin-small;
                 .category-name {}
                 .see-more-link {}
             }

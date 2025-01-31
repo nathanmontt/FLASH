@@ -139,6 +139,11 @@ html {
   padding-bottom: 5em;
 }
 
+/* -- BORDER -- */
+.nb {
+  border-right: 5em solid green;
+}
+
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
 /* -- type -- */
@@ -281,23 +286,30 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 /* ----- OTHERS ----- */
 #general-main-content {
   min-height: 100vh;
-  border: 3px solid blue;
 }
 #general-main-content .container-categories {
-  -o-object-fit: contain;
-     object-fit: contain;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  border: 5px solid green;
+  overflow-x: hidden;
+}
+#general-main-content .container-categories .container-card {
+  margin: 0.4em;
+  border: 0.01em solid black;
 }
 #general-main-content .container-categories .container-card .zoom-in-out {
-  border: 3px solid red;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #general-main-content .container-categories .container-card .zoom-in-out .category-img {
-  width: 15em;
+  width: 100%;
   aspect-ratio: 0.8/0.8;
   -o-object-fit: contain;
      object-fit: contain;
+}
+#general-main-content .container-categories .container-card .container-type-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4em;
 }
 #general-main-content .container-categories .bottom-category {
   text-align: center;
