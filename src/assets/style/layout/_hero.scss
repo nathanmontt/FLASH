@@ -21,5 +21,27 @@
             font-family: $main-font;
             font-size: $font-size-slogan;
         }
+
+        .explore {
+            color: $secondary;
+            border: $border-size solid $primary;
+            background-color: $no-border-bg-color-btn;
+            
+            position: absolute;
+            bottom: 2em;
+            
+            font-family: $main-font;
+            font-weight: $font-weight-paragraph;
+            font-size: calc($font-size-paragraphs - 0.05em);
+            padding: $padding-medium $padding-big-right;
+            cursor: $cursor-mode;
+
+            transition: color .5s, background-color .5s;
+            
+            &:hover {
+                color: $primary;
+                background-color: $secondary;
+            }
+        }
     }
 }

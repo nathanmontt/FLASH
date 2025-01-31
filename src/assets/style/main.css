@@ -248,6 +248,23 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
   font-family: "Roboto", serif;
   font-size: 1.7em;
 }
+#hero-content .container-hero .explore {
+  color: white;
+  border: 0.01em solid black;
+  background-color: transparent;
+  position: absolute;
+  bottom: 2em;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-size: 0.85em;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s;
+}
+#hero-content .container-hero .explore:hover {
+  color: black;
+  background-color: white;
+}
 
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
@@ -264,6 +281,9 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
 /* ----- OTHERS ----- */
 #general-main-content {
   min-height: 100vh;
+}
+#general-main-content .container-categories .container-card .category-img {
+  width: 10em;
 }
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */
@@ -298,23 +318,6 @@ header .container-navigation-links .navbar .menu-options-holder .options-holder 
   background-color: transparent;
   border: none;
   cursor: pointer;
-}
-
-.btn-explore {
-  color: white;
-  border: 0.01em solid black;
-  background-color: transparent;
-  position: absolute;
-  bottom: 2em;
-  font-family: "Roboto", serif;
-  font-weight: 300;
-  padding: 1em 2em;
-  cursor: pointer;
-  transition: color 0.5s, background-color 0.5s;
-}
-.btn-explore:hover {
-  color: black;
-  background-color: white;
 }
 
 /* ----- STATE ----- */
