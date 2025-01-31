@@ -9,18 +9,18 @@
         overflow-x: hidden;
         
         .container-card {
-            margin: $margin-small;
+            // margin: $margin-small;
             border: .01em solid $primary;
             .zoom-in-out {
                 object-fit: cover;
                 .category-img {
                     width: 100%;
-                    aspect-ratio: .8/.8;
+                    aspect-ratio: 1/1;
                     object-fit: contain;
-                    // transition: width .5s;
-                    // &:hover {
-                    //     width: 17em;
-                    // }
+                    transition: width .5s;
+                    &:hover {
+                        transform: scale(1.5);
+                    }
                 }
             }
 

@@ -1,3 +1,5 @@
+@import 'variables';
+
 /* Classes usadas diretamente no HTML */
 
 /* -- DISPLAY -- */
@@ -41,4 +43,7 @@
 
 
 /* -- BORDER -- */
-.nb { border-right: 5em solid green; }
+.bt { border-top: $border-size solid $primary; }
+.br { border-right: $border-size solid $primary; }
+.bb { border-bottom: $border-size solid $primary; }
+.bl { border-left: $border-size solid $primary; }
