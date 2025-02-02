@@ -1,55 +1,55 @@
-@import '../base/variables';
-@import '../state/hover';
+// @import '../base/variables';
+// @import '../state/hover';
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+// header {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
 
-    padding: $padding-big;
-    .container-logo-link-home {
-        .name-company-link-home {
-            font-family: $main-font;
-            font-size: $font-size-titles; 
-            font-weight: $font-weight-title;
+//     padding: $padding-big;
+//     .container-logo-link-home {
+//         .name-company-link-home {
+//             font-family: $main-font;
+//             font-size: $font-size-titles; 
+//             font-weight: $font-weight-title;
             
-            color: $secondary;
-        }
-    }
+//             color: $secondary;
+//         }
+//     }
     
-    .container-navigation-links {
-        #hamb-menu-btn {
-            color: $secondary;
-        }
+//     .container-navigation-links {
+//         #hamb-menu-btn {
+//             color: $secondary;
+//         }
 
-        .navbar {
-            position: relative;
-            .menu-options-holder {
-                position: absolute;
-                right: 0;
-                // padding: $padding-medium;
-                // z-index: 1;
-                // top: 10%;
-                // left: 15%;
-                // bottom: 50%;
-                border: $border-size solid $border-menu-color;
-                background-color: $border-menu-bg-color;
-                .options-holder {
-                    // border: 3px solid salmon;
-                    text-align: right;
-                    // padding: $padding-big;
-                    .links {
-                        font-family: $main-font;
-                        font-weight: $font-weight-paragraph;
-                        color: $primary;
-                    }
-                }
-            }
-        }
-    }
-}
+//         .navbar {
+//             position: relative;
+//             .menu-options-holder {
+//                 position: absolute;
+//                 right: 0;
+//                 // padding: $padding-medium;
+//                 // z-index: 1;
+//                 // top: 10%;
+//                 // left: 15%;
+//                 // bottom: 50%;
+//                 border: $border-size solid $border-menu-color;
+//                 background-color: $border-menu-bg-color;
+//                 .options-holder {
+//                     // border: 3px solid salmon;
+//                     text-align: right;
+//                     // padding: $padding-big;
+//                     .links {
+//                         font-family: $main-font;
+//                         font-weight: $font-weight-paragraph;
+//                         color: $primary;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

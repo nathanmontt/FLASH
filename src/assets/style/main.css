@@ -6,8 +6,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -184,69 +182,6 @@ html {
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 /* ----- LAYOUT ----- */
-/* ----- IMPORTS ----- */
-/* ----- FONTS ----- */
-/* -- type -- */
-/* -- size -- */
-/* -- weight -- */
-/* ----- COLORS ----- */
-/* -- main -- */
-/* -- modes -- */
-/* -- background -- */
-/* -- menu -- */
-/* ----- DEFAUTLT ARRANGEMENTS ----- */
-/* ----- SPECIFIC ARRANGEMENTS ----- */
-/* ----- OTHERS ----- */
-/* ----- IMPORTS ----- */
-/* ----- FONTS ----- */
-/* -- type -- */
-/* -- size -- */
-/* -- weight -- */
-/* ----- COLORS ----- */
-/* -- main -- */
-/* -- modes -- */
-/* -- background -- */
-/* -- menu -- */
-/* ----- DEFAUTLT ARRANGEMENTS ----- */
-/* ----- SPECIFIC ARRANGEMENTS ----- */
-/* ----- OTHERS ----- */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 1.5em;
-}
-header .container-logo-link-home .name-company-link-home {
-  font-family: "Roboto", serif;
-  font-size: 1.3em;
-  font-weight: 500;
-  color: white;
-}
-header .container-navigation-links #hamb-menu-btn {
-  color: white;
-}
-header .container-navigation-links .navbar {
-  position: relative;
-}
-header .container-navigation-links .navbar .menu-options-holder {
-  position: absolute;
-  right: 0;
-  border: 0.01em solid black;
-  background-color: white;
-}
-header .container-navigation-links .navbar .menu-options-holder .options-holder {
-  text-align: right;
-}
-header .container-navigation-links .navbar .menu-options-holder .options-holder .links {
-  font-family: "Roboto", serif;
-  font-weight: 300;
-  color: black;
-}
-
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
 /* -- type -- */
