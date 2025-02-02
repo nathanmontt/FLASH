@@ -30,4 +30,4 @@ function loadComponent(url, containerId) {
     return true;
 }
 
-loadComponent("components/header.html", "header-fetch-content");
+loadComponent("components/header.html", "header-content");
