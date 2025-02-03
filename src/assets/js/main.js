@@ -1,7 +1,5 @@
 'use strict'
 
-console.log('teste');
-
 function loadComponent(url, containerId) {
     // Localiza o elemento no DOM pelo ID, ou seja, a partir do nome do ID que colocaremos na função, armazenaremos dentro do container
     const containerHolder = document.getElementById(containerId);
