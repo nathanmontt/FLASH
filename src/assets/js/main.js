@@ -1,10 +1,6 @@
 'use strict'
 
-/* Função para carregar componentes HTML dinamicamente, ou seja, FETCH (buscar, trazer, em português)
- * Dois parâmetros:
- * url: o caminho do arquivo HTML do que a gente quer colocar na main sem ter que escrever todo o código novamente e se repetir, não utilizando o conceito DRY (Don't Repeat Yourself), ex: "components/header.html"
- * containerId: o ID do elemento HTML onde o conteúdo será inserido (ex: "header-container")
-*/
+console.log('teste');
 
 function loadComponent(url, containerId) {
     // Localiza o elemento no DOM pelo ID, ou seja, a partir do nome do ID que colocaremos na função, armazenaremos dentro do container
