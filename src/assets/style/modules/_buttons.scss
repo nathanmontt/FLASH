@@ -2,15 +2,8 @@
 @import '../state/hover';
 
 .btn-primary {
-    font-family: $main-font;
-    font-weight: $font-weight-paragraph;
-
     background-color: $no-border-bg-color-btn;
     border: $no-border;
 
     cursor: $cursor-mode;
 }
-
-// .btn-explore {
-//     
-// }

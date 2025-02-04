@@ -1,4 +1,30 @@
 @import '../base/variables';
+
+header {
+    .container-top-options {
+        display: flex;
+        justify-content: space-between;
+
+        padding: $padding-medium;
+        
+        border: 3px solid red;
+        .container-menu {
+            .open-close-menu {}
+
+            .menu-options-holder {
+                .options-holder {
+                    .links {}
+                }
+            }
+        }
+
+        .container-logo {
+            .link-home {}
+        }
+    }
+
+    .line-separator {}
+}
 // @import '../state/hover';
 
 // header {
