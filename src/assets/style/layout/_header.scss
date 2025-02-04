@@ -4,22 +4,36 @@ header {
     .container-top-options {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         padding: $padding-medium;
         
-        border: 3px solid red;
+        // border: 3px solid red;
         .container-menu {
-            .open-close-menu {}
-
+            .open-close-menu {
+                // border: 3px solid green;
+            }
+            
             .menu-options-holder {
+                // border: 3px solid blue;
                 .options-holder {
-                    .links {}
+                    .links {
+                        color: $primary;
+                    }
                 }
             }
         }
 
         .container-logo {
-            .link-home {}
+            .link-home {
+                color: $primary;
+
+                transition: color .5s;
+
+                &:hover {
+                    color: $tertiary;
+                }
+            }
         }
     }
 

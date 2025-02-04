@@ -1,0 +1,4 @@
+dia 04/02/2025
+- primeiro push do dia. Adição desse arquivo .txt para dar track em um projeto futuro. junto com esse push, deu-se início a estilização do menu.
+
+-

@@ -217,8 +217,18 @@ html {
 header .container-top-options {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1em;
-  border: 3px solid red;
+}
+header .container-top-options .container-menu .menu-options-holder .options-holder .links {
+  color: black;
+}
+header .container-top-options .container-logo .link-home {
+  color: black;
+  transition: color 0.5s;
+}
+header .container-top-options .container-logo .link-home:hover {
+  color: #b19106;
 }
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
