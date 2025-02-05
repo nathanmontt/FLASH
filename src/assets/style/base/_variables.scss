@@ -33,6 +33,8 @@ $opacity-bg: #000000a8;
 $border-menu-color: black;
 $border-menu-bg-color: white;
 
+/* -- others -- */
+$gray: #9c9c9c92;
 
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 $padding-small: 0.5em;
@@ -64,10 +66,9 @@ $padding-big-left: 2em;
 /* ----- OTHERS ----- */
 $no-border: none;
 $no-border-bg-color-btn: transparent;
-
-$border-size: 0.01em;
-
 $cursor-mode: pointer;
 
+$border-size: 0.01em;
+$border-second-size: 0.1em;
+
 $main-height: 100vh;
-$sec-height: 100vh;

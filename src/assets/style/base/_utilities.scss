@@ -41,9 +41,18 @@
 .pb-2 { padding-bottom: 2em; }
 .pb-5 { padding-bottom: 5em; }
 
-
 /* -- BORDER -- */
 .bt { border-top: $border-size solid $primary; }
 .br { border-right: $border-size solid $primary; }
 .bb { border-bottom: $border-size solid $primary; }
 .bl { border-left: $border-size solid $primary; }
+
+/* -- SEPARATORS -- */
+
+.ls {
+    display: grid;
+    place-self: center;
+    width: 90%;
+    height: $border-second-size;
+    background-color: $gray;
+}

@@ -1,4 +1,14 @@
+(sei que o git já oferece o que eu vou fazer, mas aqui eu consigo escrever mais e mais detalhado)
+
 dia 04/02/2025
 - primeiro push do dia. Adição desse arquivo .txt para dar track em um projeto futuro. junto com esse push, deu-se início a estilização do menu.
+
+- segundo push. ajustei o display do menu e adicionei interações a partir das pseudo-classes. de principal foi isso mesmo.
+______________________________________________
+
+dia 05/02/2025
+- sem push ainda (08:27hr). passando pelo linkedin, pensei em outro projeto: gerador automatico de emails. Um gerador de emails personalizados.
+
+- primeiro push. peguei as alterações do dia anterior. comentei todo o arquivo do _hero.scss, já que vai ter mudanças nele, e adicionei uma variável em _utilities.scss para colocar depois diretamente no HTML.
 
 -

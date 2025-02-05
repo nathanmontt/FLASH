@@ -10,6 +10,7 @@
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -55,6 +56,7 @@ html {
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -187,6 +189,15 @@ html {
   border-left: 0.01em solid black;
 }
 
+/* -- SEPARATORS -- */
+.ls {
+  display: grid;
+  place-self: center;
+  width: 90%;
+  height: 0.1em;
+  background-color: rgba(156, 156, 156, 0.5725490196);
+}
+
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
 /* -- type -- */
@@ -197,6 +208,7 @@ html {
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -211,6 +223,7 @@ html {
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -230,6 +243,7 @@ header .container-top-options .container-logo .link-home {
 header .container-top-options .container-logo .link-home:hover {
   color: #b19106;
 }
+
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
 /* -- type -- */
@@ -240,44 +254,12 @@ header .container-top-options .container-logo .link-home:hover {
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
 #hero-content {
   min-height: 100vh;
-  background-image: url("/src/assets/img/luis-de-leon-unsplash-hero.jpg");
-  background-size: cover;
-  background-position: center;
-}
-#hero-content .container-hero {
-  min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6588235294);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#hero-content .container-hero .hero-slogan {
-  color: white;
-  font-family: "Roboto", serif;
-  font-size: 1.7em;
-}
-#hero-content .container-hero .explore {
-  color: white;
-  border: 0.01em solid black;
-  background-color: transparent;
-  position: absolute;
-  bottom: 2em;
-  font-family: "Roboto", serif;
-  font-weight: 300;
-  font-size: 0.85em;
-  padding: 1em 2em;
-  cursor: pointer;
-  transition: color 0.5s, background-color 0.5s;
-}
-#hero-content .container-hero .explore:hover {
-  color: black;
-  background-color: white;
 }
 
 /* ----- IMPORTS ----- */
@@ -290,6 +272,7 @@ header .container-top-options .container-logo .link-home:hover {
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -312,6 +295,7 @@ header .container-top-options .container-logo .link-home:hover {
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -325,6 +309,7 @@ header .container-top-options .container-logo .link-home:hover {
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
@@ -345,6 +330,7 @@ header .container-top-options .container-logo .link-home:hover {
 /* -- modes -- */
 /* -- background -- */
 /* -- menu -- */
+/* -- others -- */
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 /* ----- SPECIFIC ARRANGEMENTS ----- */
 /* ----- OTHERS ----- */
