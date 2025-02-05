@@ -2,6 +2,26 @@
 
 #hero-content {
     min-height: $main-height;
+
+    .container-title {
+        .title {}
+    }
+        .container-description {
+            .craft {}
+            .craft-small-desc {}
+        }
+
+        .container-explore {
+            .icon {}
+            .explore {}
+        }
+
+        .container-bg-image {}
+
+        .container-description-mediaQuery {
+            .craft-small-desc-mediaQuery-1 {}
+            .craft-small-desc-mediaQuery-2 {}
+        }
 //     background-image: url("/src/assets/img/luis-de-leon-unsplash-hero.jpg");
 //     background-size: cover;
 //     background-position: center;
