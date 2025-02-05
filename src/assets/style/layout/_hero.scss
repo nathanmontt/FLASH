@@ -2,26 +2,42 @@
 
 #hero-content {
     min-height: $main-height;
-
+    padding: $padding-medium;
+    
     .container-title {
-        .title {}
+        .title {
+            padding: 0 0 $margin-small-bottom 0;
+            font-size: $font-size-company-logo-name;
+        }
     }
-        .container-description {
-            .craft {}
-            .craft-small-desc {}
-        }
 
-        .container-explore {
-            .icon {}
-            .explore {}
+    .container-description {
+        .craft {
+            color: $descriptions;
+            font-weight: $font-weight-descriptions;
         }
-
-        .container-bg-image {}
-
-        .container-description-mediaQuery {
-            .craft-small-desc-mediaQuery-1 {}
-            .craft-small-desc-mediaQuery-2 {}
+        .craft-small-desc {
+            margin: $margin-small-top 0 0 0;
         }
+    }
+
+    .container-explore {
+        display: flex;
+        margin-top: $margin-small-top;
+        .icon {
+            width: 1.3em;
+        }
+        .explore {
+            margin-left: $margin-small-left;
+        }
+    }
+
+    .container-bg-image {}
+
+    .container-description-mediaQuery {
+        .craft-small-desc-mediaQuery-1 {}
+        .craft-small-desc-mediaQuery-2 {}
+    }
 //     background-image: url("/src/assets/img/luis-de-leon-unsplash-hero.jpg");
 //     background-size: cover;
 //     background-position: center;

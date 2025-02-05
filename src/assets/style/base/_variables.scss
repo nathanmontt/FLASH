@@ -7,13 +7,16 @@
 $main-font: 'Roboto', serif;
 
 /* -- size -- */
-$font-size-slogan: 1.7em;
+$font-size-company-logo-name: 2.5em;
+$font-size-slogan: .7em;
 $font-size-titles: 1.3em;
 $font-size-paragraphs: 0.9em;
 
 /* -- weight -- */
 $font-weight-title: 500;
 $font-weight-paragraph: 300;
+$font-weight-paragraph-sec: 100;
+$font-weight-descriptions: 400;
 
 
 /* ----- COLORS ----- */
@@ -21,6 +24,8 @@ $font-weight-paragraph: 300;
 $primary: black;
 $secondary: white;
 $tertiary: #b19106;
+
+$descriptions: #5e5e5e;
 
 /* -- modes -- */
 $color-white-mode-bnt: black;
@@ -39,7 +44,7 @@ $gray: #9c9c9c92;
 /* ----- DEFAUTLT ARRANGEMENTS ----- */
 $padding-small: 0.5em;
 $padding-medium: 1em;
-$padding-big: 1.5em;
+$padding-big: 2em;
 
 $margin-small: 0.4em;
 $margin-medium: 1em;
@@ -47,6 +52,7 @@ $margin-big: 1.4em;
 
 
 /* ----- SPECIFIC ARRANGEMENTS ----- */
+/* -- padding -- */
 $padding-small-top: 0.7em;
 $padding-small-right: 0.7em;
 $padding-small-bottom: 0.7em;
@@ -61,6 +67,22 @@ $padding-big-top: 2em;
 $padding-big-right: 2em;
 $padding-big-bottom: 2em;
 $padding-big-left: 2em;
+
+/* -- margin -- */
+$margin-small-top: 0.7em;
+$margin-small-right: 0.7em;
+$margin-small-bottom: 0.4em;
+$margin-small-left: 0.7em;
+
+$margin-medium-top: 1.1em;
+$margin-medium-right: 1.1em;
+$margin-medium-bottom: 1.1em;
+$margin-medium-left: 1.1em;
+
+$margin-big-top: 2em;
+$margin-big-right: 2em;
+$margin-big-bottom: 2em;
+$margin-big-left: 2em;
 
 
 /* ----- OTHERS ----- */

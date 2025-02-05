@@ -1,14 +1,38 @@
-(sei que o git já oferece o que eu vou fazer, mas aqui eu consigo escrever mais e mais detalhado)
+IDEIA DE PROJETO FUTURO: SELFTRACKING
+	-> Um serviço (mais pessoal do que para fora) onde se acompanha os push que o dev dá no dia, porém de forma mais detalhada. O projeto serve mais para testar meus conceitos em estudos do que ser um projeto em si, mas ainda será colocado no repositório. O Github já oferece tudo o que eu vou fazer, mas vou continuar fazendo.
 
-dia 04/02/2025
-- primeiro push do dia. Adição desse arquivo .txt para dar track em um projeto futuro. junto com esse push, deu-se início a estilização do menu.
+	-> Para modificações futuras, como por enquanto é um projeto que penso fazer em HTML, CSS, JS, Tailwind ou BootStrap, penso em fazer algo como uma TODO List, onde o user pode adicionar um "self tracking" do que foi feito no dia, como é demonstrado abaixo, excluir, editar, "publicar", etc.
+__________________________________________________________________
 
-- segundo push. ajustei o display do menu e adicionei interações a partir das pseudo-classes. de principal foi isso mesmo.
-______________________________________________
+== Dia 04/02/2025 ==
+- 1° push: 
+	-> Adição deste arquivo para dar início ao tracking de um outro projeto futuro;
+	-> Início à estilização do menu (navbar).
 
-dia 05/02/2025
-- sem push ainda (08:27hr). passando pelo linkedin, pensei em outro projeto: gerador automatico de emails. Um gerador de emails personalizados.
+- 2° push:
+	-> Ajustado o display do menu;
+	-> Adição de interações a partir de pseudo-classes.
+__________________________________________________________________
 
-- primeiro push. peguei as alterações do dia anterior. comentei todo o arquivo do _hero.scss, já que vai ter mudanças nele, e adicionei uma variável em _utilities.scss para colocar depois diretamente no HTML.
+== Dia 05/02/2025 ==
+- Sem push (08:27hr):
+	-> Ideia de projeto: gerador de emails personalizados. Maturar a ideia depois.
 
--
+- 1° push:
+	-> Alterações do dia anterior foram usadas. Reinício do arquivo _hero.scss para a nova parte do projeto;
+	-> Adição de variável em _utilities.scss.
+
+- 2° push:
+	-> Estruturação do esqueleto do _hero.scss;
+	-> Adição de uma div para armazenas imagem de fundo
+
+-- ESTUDO -- 
+	-> git add -u: faz o mesmo que o git add . (para adicionar todas as stages files), porém NÃO adiciona as files novas, com o símbolo de U (o símbolo é de acordo com o que aparece no VSCode)
+
+- 3° push:
+	-> Troca de nomes de algumas variáveis, e adição de outras;
+	-> Adição do slogan no index.html, na área do hero;
+	-> Mudança do estilo no nome da marca;
+	-> Retirada do slogan;
+	-> Mudança no valor de variáveis;
+	-> Adição de variáveis de margin;
