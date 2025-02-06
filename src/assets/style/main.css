@@ -332,14 +332,6 @@ header .line-separator {
 /* -- padding -- */
 /* -- margin -- */
 /* ----- OTHERS ----- */
-#general-main-content .container-logo {
-  padding: 1.1em;
-  font-family: "Cormorant Garamond", serif;
-}
-#general-main-content .container-logo .company-slogan {
-  font-weight: 300;
-}
-
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */

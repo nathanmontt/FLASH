@@ -53,10 +53,12 @@ __________________________________________________________________
 - 2° push:
 	-> Início do main-content;
 	-> Adição do product-content, onde os produtos vendidos na loja aparecerão para o usuários;
-	-> Correção dos estilos do _hero.scss e em outros;
-	-> Exclusão de comentários desnecessários;
-	-> Adição de uma nova fonte;
-	-> Adição de uma classe contendo uma pseudo-classe para o hover em certas divs.
+	-> Adição do esqueleto dos containers dentro do main-content;
+
+- 3° push:
+	-> Começo da estruturação do esqueleto do HTML do main-content;
+	-> Estruturação do esqueleto do main-content no SCSS;
+
 
 ==> IDEIA <==
 	-> Uma extensão de navegador que salva suas mensagens mais usadas e as classifica, como por exemplo "Mensagem de Apresentação", "Template para E-mail Coorporativo", etc

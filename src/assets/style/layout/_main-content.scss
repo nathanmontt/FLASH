@@ -1,0 +1,21 @@
+@import '../base/variables';
+
+#main-content {
+    .container-new-arrivals {
+        .container-new-prods {
+            .container-prods {
+                .prod-img {}
+                .container-prod-info {
+                    .prod-name {}
+                    .prod-price {}
+                }
+            }
+        }
+
+        .container-new-prods-mediaQuery {}
+    }
+
+    .container-shirts {}
+    .container-pants {}
+    .container-jewelry {}
+}
