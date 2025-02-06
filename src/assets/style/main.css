@@ -1,6 +1,7 @@
 /* ----- BASE ----- */
 /* ----- IMPORTS ----- */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 /* ----- FONTS ----- */
 /* -- type -- */
 /* -- size -- */
@@ -17,13 +18,21 @@
 /* -- margin -- */
 /* ----- OTHERS ----- */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -33,10 +42,6 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-}
-
-* {
-  font-family: "Roboto", serif;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -202,6 +207,14 @@ html {
   background-color: rgba(156, 156, 156, 0.5725490196);
 }
 
+.specific-hover {
+  color: black;
+  transition: color 0.5s;
+}
+.specific-hover:hover {
+  color: #b19106;
+}
+
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
 /* -- type -- */
@@ -245,11 +258,7 @@ header .container-top-options .container-menu .menu-options-holder .options-hold
   color: black;
 }
 header .container-top-options .container-logo .link-home {
-  color: black;
-  transition: color 0.5s;
-}
-header .container-top-options .container-logo .link-home:hover {
-  color: #b19106;
+  font-style: italic;
 }
 header .line-separator {
   border: 0.01em solid rgba(156, 156, 156, 0.5725490196);
@@ -271,23 +280,27 @@ header .line-separator {
 /* -- padding -- */
 /* -- margin -- */
 /* ----- OTHERS ----- */
-#hero-content {
-  min-height: 100vh;
+#hero-content .container-title {
   padding: 1em;
 }
 #hero-content .container-title .title {
-  padding: 0 0 0.4em 0;
+  font-style: italic;
   font-size: 2.5em;
+}
+#hero-content .container-description {
+  padding: 1em;
+  margin-top: 0.7em;
 }
 #hero-content .container-description .craft {
   color: #5e5e5e;
   font-weight: 400;
 }
 #hero-content .container-description .craft-small-desc {
-  margin: 0.7em 0 0 0;
+  margin-top: 0.7em;
 }
 #hero-content .container-explore {
   display: flex;
+  padding: 0 0 1em 0.7em;
   margin-top: 0.7em;
 }
 #hero-content .container-explore .icon {
@@ -296,6 +309,13 @@ header .line-separator {
 #hero-content .container-explore .explore {
   margin-left: 0.7em;
 }
+#hero-content .container-bg-image {
+  min-height: 60vh;
+  background-image: url("/src/assets/img/luis-de-leon-bg-img-hero-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
 /* -- type -- */
@@ -314,7 +334,7 @@ header .line-separator {
 /* ----- OTHERS ----- */
 #general-main-content .container-logo {
   padding: 1.1em;
-  font-family: "Roboto", serif;
+  font-family: "Cormorant Garamond", serif;
 }
 #general-main-content .container-logo .company-slogan {
   font-weight: 300;

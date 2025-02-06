@@ -6,17 +6,13 @@ header {
         justify-content: space-between;
         align-items: center;
 
-        // padding: $padding-medium;
         padding: $padding-medium;
         
-        // border: 3px solid red;
         .container-menu {
-            .open-close-menu {
-                // border: 3px solid green;
-            }
+            .open-close-menu {}
             
             .menu-options-holder {
-                // border: 3px solid blue;
+                // font-family: $main-font;
                 .options-holder {
                     .links {
                         color: $primary;
@@ -27,13 +23,7 @@ header {
 
         .container-logo {
             .link-home {
-                color: $primary;
-
-                transition: color .5s;
-
-                &:hover {
-                    color: $tertiary;
-                }
+                font-style: italic;
             }
         }
     }
@@ -42,57 +32,3 @@ header {
         border: $border-size solid $gray;
     }
 }
-// @import '../state/hover';
-
-// header {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-
-//     padding: $padding-big;
-//     .container-logo-link-home {
-//         .name-company-link-home {
-//             font-family: $main-font;
-//             font-size: $font-size-titles; 
-//             font-weight: $font-weight-title;
-            
-//             color: $secondary;
-//         }
-//     }
-    
-//     .container-navigation-links {
-//         #hamb-menu-btn {
-//             color: $secondary;
-//         }
-
-//         .navbar {
-//             position: relative;
-//             .menu-options-holder {
-//                 position: absolute;
-//                 right: 0;
-//                 // padding: $padding-medium;
-//                 // z-index: 1;
-//                 // top: 10%;
-//                 // left: 15%;
-//                 // bottom: 50%;
-//                 border: $border-size solid $border-menu-color;
-//                 background-color: $border-menu-bg-color;
-//                 .options-holder {
-//                     // border: 3px solid salmon;
-//                     text-align: right;
-//                     // padding: $padding-big;
-//                     .links {
-//                         font-family: $main-font;
-//                         font-weight: $font-weight-paragraph;
-//                         color: $primary;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }

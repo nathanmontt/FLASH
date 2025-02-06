@@ -56,3 +56,12 @@
     height: $border-second-size;
     background-color: $gray;
 }
+
+.specific-hover {
+    color: $primary;
+    transition: color .5s;
+
+    &:hover {
+        color: $tertiary;
+    }
+}

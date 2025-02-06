@@ -36,3 +36,24 @@ __________________________________________________________________
 	-> Retirada do slogan;
 	-> Mudança no valor de variáveis;
 	-> Adição de variáveis de margin;
+	-> Adição de ícones para o hero;
+	-> Adição de interações a partir de pseudo-classes.
+__________________________________________________________________
+
+== Dia 06/02/2025 ==
+
+- 1° push:
+	-> Alterações no esqueleto do HTML. Retirada do conteúdo antigo;
+	-> Adição do product-content, onde os produtos vendidos na loja aparecerão para o usuários;
+	-> Correção dos estilos do _hero.scss e em outros;
+	-> Exclusão de comentários desnecessários;
+	-> Adição de uma nova fonte;
+	-> Adição de uma classe contendo uma pseudo-classe para o hover em certas divs.
+
+- 2° push:
+	-> Alterações no esqueleto do HTML. Retirada do conteúdo antigo;
+	-> Adição do product-content, onde os produtos vendidos na loja aparecerão para o usuários;
+	-> Correção dos estilos do _hero.scss e em outros;
+	-> Exclusão de comentários desnecessários;
+	-> Adição de uma nova fonte;
+	-> Adição de uma classe contendo uma pseudo-classe para o hover em certas divs.

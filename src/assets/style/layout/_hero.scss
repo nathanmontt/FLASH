@@ -1,28 +1,31 @@
 @import '../base/variables';
 
 #hero-content {
-    min-height: $main-height;
-    padding: $padding-medium;
-    
+    // min-height: $main-height;
+
     .container-title {
+        padding: $padding-medium;
         .title {
-            padding: 0 0 $margin-small-bottom 0;
+            font-style: italic;
             font-size: $font-size-company-logo-name;
         }
     }
-
+    
     .container-description {
+        padding: $padding-medium;
+        margin-top: $margin-small-top;
         .craft {
             color: $descriptions;
             font-weight: $font-weight-descriptions;
         }
         .craft-small-desc {
-            margin: $margin-small-top 0 0 0;
+            margin-top: $margin-small-top;
         }
     }
-
+    
     .container-explore {
         display: flex;
+        padding: 0 0 $padding-medium $margin-small-top;
         margin-top: $margin-small-top;
         .icon {
             width: 1.3em;
@@ -31,53 +34,16 @@
             margin-left: $margin-small-left;
         }
     }
-
-    .container-bg-image {}
-
+    
     .container-description-mediaQuery {
         .craft-small-desc-mediaQuery-1 {}
         .craft-small-desc-mediaQuery-2 {}
     }
-//     background-image: url("/src/assets/img/luis-de-leon-unsplash-hero.jpg");
-//     background-size: cover;
-//     background-position: center;
-
     
-//     .container-hero {
-//         min-height: $sec-height;
-//         background-color: $opacity-bg;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-        
-//         // border: 3px solid red;
-//         .hero-slogan {
-//             color: $secondary;
-//             font-family: $main-font;
-//             font-size: $font-size-slogan;
-//         }
-
-//         .explore {
-//             color: $secondary;
-//             border: $border-size solid $primary;
-//             background-color: $no-border-bg-color-btn;
-            
-//             position: absolute;
-//             bottom: 2em;
-            
-//             font-family: $main-font;
-//             font-weight: $font-weight-paragraph;
-//             font-size: calc($font-size-paragraphs - 0.05em);
-//             padding: $padding-medium $padding-big-right;
-//             cursor: $cursor-mode;
-
-//             transition: color .5s, background-color .5s;
-            
-//             &:hover {
-//                 color: $primary;
-//                 background-color: $secondary;
-//             }
-//         }
-//     }
+    .container-bg-image {
+        min-height: 60vh;
+        background-image: url("/src/assets/img/luis-de-leon-bg-img-hero-1.jpg");
+        background-size: cover;
+        background-position: center;
+    }
 }
