@@ -51,9 +51,14 @@ __________________________________________________________________
 	-> Adição de uma classe contendo uma pseudo-classe para o hover em certas divs.
 
 - 2° push:
-	-> Alterações no esqueleto do HTML. Retirada do conteúdo antigo;
+	-> Início do main-content;
 	-> Adição do product-content, onde os produtos vendidos na loja aparecerão para o usuários;
 	-> Correção dos estilos do _hero.scss e em outros;
 	-> Exclusão de comentários desnecessários;
 	-> Adição de uma nova fonte;
 	-> Adição de uma classe contendo uma pseudo-classe para o hover em certas divs.
+
+==> IDEIA <==
+	-> Uma extensão de navegador que salva suas mensagens mais usadas e as classifica, como por exemplo "Mensagem de Apresentação", "Template para E-mail Coorporativo", etc
+
+
