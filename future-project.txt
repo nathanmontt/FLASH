@@ -83,8 +83,8 @@ __________________________________________________________________
 - 3° push:
 	-> Início da estruturação nos arquivos SCSS;
 	-> Adição de variáveis;
-	-> ;
-	-> ;
+	-> Testes para deploy: no Vercel e Netlify, as background-image não aparecem. Por isso os testes;
+	-> Troca de nome de imagens;
 	-> ;
 	-> ;
 	-> ;

@@ -314,13 +314,6 @@ header .line-separator {
 #hero-content .container-explore .explore {
   margin-left: 0.7em;
 }
-#hero-content .container-bg-image {
-  min-height: 60vh;
-  background-image: url("/src/assets/img/luis-de-leon-bg-img-hero-1.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */
 /* -- type -- */
@@ -342,21 +335,19 @@ header .line-separator {
   padding: 1em;
 }
 #main-content .container-new-arrivals .container-text-about-NA .text-about {
+  margin: 1.1em 0 1.1em 0;
   font: italic 500 2.5em "Cormorant Garamond", serif;
-  margin: 2em 0 1.1em 0;
 }
 #main-content .container-new-arrivals .container-new-prods {
   display: flex;
 }
-#main-content .container-new-arrivals .container-new-prods .container-prods .link-to-prod {
-  display: flex;
+#main-content .container-new-arrivals .container-new-prods .container-prods {
+  display: grid;
+  place-items: center;
 }
 #main-content .container-new-arrivals .container-new-prods .container-prods .link-to-prod .prod-img {
-  width: 50%;
-  border: 0.01em solid rgba(156, 156, 156, 0.5725490196);
-  -o-object-fit: fill;
-     object-fit: fill;
-  aspect-ratio: 1/1.4;
+  width: 100%;
+  border: 0.01em solid #a5a5a5;
 }
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */
