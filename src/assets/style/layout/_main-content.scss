@@ -6,22 +6,36 @@
 }
 
 #main-content {
+    padding: $padding-medium;
     .container-new-arrivals {
-        // .container-text-about {
-        //     .text-about {}
-        //     .see-more {}
-        // }
-
+        .container-text-about-NA {
+            .text-about {
+                font: $font-style $font-weight-title $font-size-company-logo-name $main-font;
+                margin: $margin-big-top 0 $margin-medium-bottom 0;
+            }
+            .see-more {}
+        }
+        
         .container-new-prods {
             display: flex;
             .container-prods {
                 .link-to-prod {
+                    // display: grid;
+                    // justify-self: center;
+                    // align-self: center;
+                    // align-items: center;
+                    // justify-items: center;
+                    display: flex;
+                    // flex-direction: column;
+                    // align-items: center;
+                    // justify-content: center;
                     .prod-img {
-                        width: 8em;
+                        width: 50%;
                         border: $border-size solid $gray;
                         object-fit: fill;
                         aspect-ratio: 1 / 1.4;
                     }
+
                     .container-prod-info {
                         .prod-name {}
                         .prod-price {}

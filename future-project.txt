@@ -76,8 +76,15 @@ __________________________________________________________________
 
 - 2° push:
 	-> Modificações no READ.ME do projeto;
-	-> Modificação do esqueleto do HTML principal;
-	-> Adição de estilo para a modificação acima;
+	-> Modificação no esqueleto do HTML principal;
+	-> Modificação no esqueleto do SCSS de _main-content;
+	-> Adição de estilo para as modificações acima;
+
+- 3° push:
+	-> Início da estruturação nos arquivos SCSS;
+	-> Adição de variáveis;
+	-> ;
+	-> ;
 	-> ;
 	-> ;
 	-> ;
