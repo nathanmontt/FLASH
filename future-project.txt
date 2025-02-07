@@ -73,6 +73,14 @@ __________________________________________________________________
 	-> Commit das alterações que não foram ao push ontem;
 	-> Exlusão de imagens;
 	-> Modificação da forma como os produtos se encaixam;
+
+- 2° push:
+	-> Modificações no READ.ME do projeto;
+	-> Modificação do esqueleto do HTML principal;
+	-> Adição de estilo para a modificação acima;
 	-> ;
 	-> ;
 	-> ;
+
+
+

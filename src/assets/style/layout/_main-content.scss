@@ -1,15 +1,31 @@
 @import '../base/variables';
 
+.container-text-about {
+    .text-about {}
+    .see-more {}
+}
+
 #main-content {
     .container-new-arrivals {
+        // .container-text-about {
+        //     .text-about {}
+        //     .see-more {}
+        // }
+
         .container-new-prods {
+            display: flex;
             .container-prods {
-                .prod-img {
-                    width: 5em;
-                }
-                .container-prod-info {
-                    .prod-name {}
-                    .prod-price {}
+                .link-to-prod {
+                    .prod-img {
+                        width: 8em;
+                        border: $border-size solid $gray;
+                        object-fit: fill;
+                        aspect-ratio: 1 / 1.4;
+                    }
+                    .container-prod-info {
+                        .prod-name {}
+                        .prod-price {}
+                    }
                 }
             }
         }
@@ -17,7 +33,9 @@
         .container-new-prods-mediaQuery {}
     }
 
-    .container-shirts {}
-    .container-pants {}
-    .container-jewelry {}
+    .container-other-prods{
+        .container-shirts {}
+        .container-pants {}
+        .container-jewelry {}
+    }
 }
