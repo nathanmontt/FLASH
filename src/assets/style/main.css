@@ -345,9 +345,18 @@ header .line-separator {
   display: grid;
   place-items: center;
 }
+#main-content .container-new-arrivals .container-new-prods .container-prods .link-to-prod {
+  margin: 0.3em;
+}
 #main-content .container-new-arrivals .container-new-prods .container-prods .link-to-prod .prod-img {
   width: 100%;
   border: 0.01em solid #a5a5a5;
+}
+#main-content .container-new-arrivals .container-new-prods .container-prods .link-to-prod .container-prod-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
 }
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */

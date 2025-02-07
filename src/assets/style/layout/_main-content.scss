@@ -21,20 +21,19 @@
             .container-prods {
                 display: grid;
                 place-items: center;
-                // object-fit: fill;
-                // aspect-ratio: 1 / 1.4;
                 .link-to-prod {
-                    // flex-direction: column;
-                    // justify-self: center;
-                    // align-self: center;
-                    // align-items: center;
-                    // justify-items: center;
+                    margin: 0.3em;
                     .prod-img {
                         width: 100%;
                         border: $border-size solid $border;
                     }
-
+                    
                     .container-prod-info {
+                        display: flex;
+                        justify-content: space-between;
+
+                        font-family: $main-font;
+                        font-weight: $font-weight-title;
                         .prod-name {}
                         .prod-price {}
                     }
