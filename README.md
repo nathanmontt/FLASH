@@ -65,8 +65,7 @@ Para futuras <em>features</em>, alguns opções podem ser levadas em consideraç
 <h1 id="inspirations"> Inspirações </h1>
 
 Nesse projeto, foram utilizados mais inspirações:
-- **Dribbble**, com o projeto do time <a href="https://dribbble.com/shots/25388237-Zara-Home">totonis.</a>;
-- **Behance**, o principal, tendo como inspiração projetos de autores, como <a href="https://www.behance.net/gallery/198096583/E-sOMMERCE-COSMETICS-STORE">Sergei Zolotov</a> e <a href="https://www.behance.net/gallery/210352157/E-Commerce-Furniture-Website">Babu UI/UX</a>;
+- **Behance**, o principal, tendo como inspiração a autora <a href="https://www.behance.net/katerin_glk">Ekaterina Glebova</a> com seu projeto <a href="https://www.behance.net/gallery/215397443/Online-clothing-store-CORDOVA">CORDOVA</a>;
 - Além do banco de dados gratuito **Unsplash**, com a coleção de fotos usadas no site <a href="https://unsplash.com/pt-br/cole%C3%A7%C3%B5es/nCrFuqqXuFM/flash">aqui</a>.
 
 
