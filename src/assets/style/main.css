@@ -332,6 +332,9 @@ header .line-separator {
 /* -- padding -- */
 /* -- margin -- */
 /* ----- OTHERS ----- */
+#main-content .container-new-arrivals .container-new-prods .container-prods .prod-img {
+  width: 5em;
+}
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */
 /* ----- FONTS ----- */

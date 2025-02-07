@@ -59,8 +59,20 @@ __________________________________________________________________
 	-> Começo da estruturação do esqueleto do HTML do main-content;
 	-> Estruturação do esqueleto do main-content no SCSS;
 
+- ° push:
+	-> Ajeitando o esqueleto do content-new-arrivals;
+	-> Estruturação do esqueleto do main-content no SCSS;
 
 ==> IDEIA <==
 	-> Uma extensão de navegador que salva suas mensagens mais usadas e as classifica, como por exemplo "Mensagem de Apresentação", "Template para E-mail Coorporativo", etc
+__________________________________________________________________
 
+== Dia 07/02/2025 ==
 
+- 1° push:
+	-> Commit das alterações que não foram ao push ontem;
+	-> Exlusão de imagens;
+	-> Modificação da forma como os produtos se encaixam;
+	-> ;
+	-> ;
+	-> ;
