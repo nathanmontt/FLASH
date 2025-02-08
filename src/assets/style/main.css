@@ -331,6 +331,10 @@ header .line-separator {
 /* -- padding -- */
 /* -- margin -- */
 /* ----- OTHERS ----- */
+.container-text-about .text-about {
+  margin: 1.1em 0 1.1em 0;
+  font: italic 500 2.5em "Cormorant Garamond", serif;
+}
 #main-content {
   padding: 1em;
 }
@@ -357,6 +361,9 @@ header .line-separator {
   justify-content: space-between;
   font-family: "Cormorant Garamond", serif;
   font-weight: 500;
+}
+#main-content .container-other-prods {
+  border: 3px solid red;
 }
 /* ----- MODULES ----- */
 /* ----- IMPORTS ----- */

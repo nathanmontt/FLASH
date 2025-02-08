@@ -1,7 +1,10 @@
 @import '../base/variables';
 
 .container-text-about {
-    .text-about {}
+    .text-about {
+        margin: $margin-medium-top 0 $margin-medium-bottom 0;
+        font: $font-style $font-weight-title $font-size-company-logo-name $main-font;
+    }
     .see-more {}
 }
 
@@ -45,6 +48,7 @@
     }
 
     .container-other-prods{
+        border: 3px solid red;
         .container-shirts {}
         .container-pants {}
         .container-jewelry {}
