@@ -23,7 +23,7 @@
 
 <h1 id="abilities"> Habilidades Necessárias </h1>
 
-Sendo o segundo, ainda foram utilizadas utilizadas linguagens como <b>HTML</b>, <b>SCSS</b>, e <b>JavaScript</b></b>. Os estudos que se tornaram maiores devido a ambição em um projeto um pouco maior do que o normal. Então foi necessário adaptá-lo para o nível de conhecimento compatível, como:
+Sendo o segundo, ainda foram utilizadas linguagens como <b>HTML</b>, <b>SCSS</b>, e <b>JavaScript</b></b>. Os estudos que se tornaram maiores devido a ambição em um projeto um pouco maior do que o normal. Então foi necessário adaptá-lo para o nível de conhecimento compatível, como:
 
 - Conhecimento sobre organização do projeto;
 - Conhecimento sobre meta tags;
@@ -44,12 +44,15 @@ No momento, não há contruibuições.
 
 <h1 id="fut-corr"> Correções Futuras </h1>
 
+No momento em questão, ainda não há correções a se fazer.
+
+<!--
 Para futuras correções, é sempre bom deixar documentado:
 
 Correção | Motivo
 :---------: | :------:
 **Header** | Ao invés de usar o _fetch_ como meio de trazer o cabeçalho, deixá-lo sempre fixo em  cada página. O erro no CORS ainda não foi consertado, então para fins de concluir o projeto, mudar a abordagem
-
+-->
 
 
 <h1 id="fut-feats"> <em>Features</em> Futuras </h1>
